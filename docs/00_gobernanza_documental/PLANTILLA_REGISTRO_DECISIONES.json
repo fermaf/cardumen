@@ -1,9 +1,9 @@
 {
   "metadatos": {
     "proyecto": "EJEMPLO",
-    "version_registro": "0.1.0",
+    "version_registro": "0.2.0",
     "fecha_corte": "AAAA-MM-DD",
-    "estado": "plantilla_publica_sin_datos_internos"
+    "estado": "plantilla_publica"
   },
   "decisiones": [
     {
@@ -11,7 +11,8 @@
       "titulo": "Título de ejemplo",
       "estado_decisorio": "pendiente",
       "integridad": "parcial",
-      "decision": "Descripción no sensible de la decisión o null si existe una brecha.",
+      "clasificacion": "publico",
+      "decision": "Descripción no sensible de la decisión.",
       "fecha": null,
       "fuentes": [
         "Referencia verificable no sensible."
@@ -22,7 +23,7 @@
       ],
       "dependencias": [],
       "contradicciones": [],
-      "accion_siguiente": "Acción concreta para avanzar.",
+      "accion_siguiente": "Acción concreta.",
       "instruccion_agente": "No marcar como aprobada sin evidencia humana."
     },
     {
@@ -30,16 +31,17 @@
       "titulo": "Brecha de ejemplo",
       "estado_decisorio": "aprobada_consolidacion_pendiente",
       "integridad": "brecha",
+      "clasificacion": "publico",
       "decision": null,
       "fecha": null,
       "fuentes": [
-        "Resumen que afirma aprobación sin conservar el contenido."
+        "Resumen que afirma aprobación sin conservar contenido."
       ],
-      "evidencia_aprobacion": "Constancia insuficiente para reconstruir la decisión.",
+      "evidencia_aprobacion": "Constancia insuficiente.",
       "destinos": [],
       "dependencias": [],
       "contradicciones": [],
-      "accion_siguiente": "Recuperar el contenido original o solicitar ratificación humana.",
+      "accion_siguiente": "Recuperar el original o solicitar ratificación humana.",
       "instruccion_agente": "Prohibido inferir o completar esta decisión."
     }
   ]
