@@ -1,0 +1,386 @@
+{
+  "metadatos": {
+    "proyecto": "Cardumen — fase constituyente",
+    "version_registro": "0.2.0",
+    "fecha_corte": "2026-07-29",
+    "estado": "borrador_publico_sujeto_a_ratificacion",
+    "linea_base": "fermaf/cardumen@67f6d67d6621097d5747e3b8a22db2acdfe31001",
+    "advertencia": "Una brecha nunca autoriza a completar contenido por inferencia."
+  },
+  "decisiones": [
+    {
+      "id": "REP-01",
+      "titulo": "Separación entre repositorio constituyente y operativo",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "parcial",
+      "clasificacion": "publico",
+      "decision": "El repositorio actual conserva la elaboración pública de los borradores constitutivos. Cuando la entidad inicie su operación podrá crearse otro repositorio desde una versión consolidada, aunque cambie el nombre institucional.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "Instrucción humana del 2026-07-29 en la conversación de trabajo."
+      ],
+      "evidencia_aprobacion": "Se indicó expresamente que el borrador se trabaja en un repositorio distinto del que usará posteriormente Cardumen o la entidad con el nombre que se adopte.",
+      "destinos": [
+        "GENESIS_Y_PRINCIPIOS.md",
+        "README del futuro repositorio operativo"
+      ],
+      "dependencias": [
+        "ID-01"
+      ],
+      "contradicciones": [],
+      "accion_siguiente": "Ratificar si el repositorio operativo será nuevo, plantilla, fork o transferencia seleccionada.",
+      "instruccion_agente": "No confundir repositorio constituyente con existencia jurídica u operación efectiva."
+    },
+    {
+      "id": "PUB-01",
+      "titulo": "Publicidad por defecto durante la fase constituyente",
+      "estado_decisorio": "aprobada",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "Desde el 2026-07-29, la discusión y el registro detallado de decisiones de la fase constituyente son públicos por defecto. La reserva es excepcional y se identifica antes de incorporar información al repositorio público.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "Instrucción humana del 2026-07-29 en la conversación de trabajo."
+      ],
+      "evidencia_aprobacion": "Autorización expresa de publicidad actual y reserva futura de lo que sea necesario proteger.",
+      "destinos": [
+        "GENESIS_Y_PRINCIPIOS.md",
+        "METODOLOGIA_CONTROL_DECISIONES.md",
+        "POLITICA_PUBLICIDAD_Y_RESERVA.md"
+      ],
+      "dependencias": [
+        "REP-01"
+      ],
+      "contradicciones": [],
+      "accion_siguiente": "Clasificar cada nuevo registro antes de publicarlo.",
+      "instruccion_agente": "No publicar secretos, datos personales innecesarios, credenciales ni información clasificada como reservada."
+    },
+    {
+      "id": "ID-01",
+      "titulo": "Nombre legal y relación con Cardumen",
+      "estado_decisorio": "pendiente",
+      "integridad": "parcial",
+      "clasificacion": "publico",
+      "decision": "Cardumen se mantiene como denominación de trabajo. No consta una decisión íntegramente preservada sobre si será nombre legal, marca institucional o ambos.",
+      "fecha": null,
+      "fuentes": [
+        "Pestaña ESTATUTOS (JUNIO) de Google Drive.",
+        "Conversaciones del proyecto sobre nombres."
+      ],
+      "evidencia_aprobacion": null,
+      "destinos": [
+        "Estatutos, denominación",
+        "Identidad institucional"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Comparar alternativas, verificar disponibilidad y adoptar decisión humana.",
+      "instruccion_agente": "Usar Cardumen como nombre provisional y conservar placeholders en textos de formalización."
+    },
+    {
+      "id": "ID-03",
+      "titulo": "Domicilio en Providencia",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "parcial",
+      "clasificacion": "publico",
+      "decision": "El domicilio de la fundación se establecerá en la comuna de Providencia.",
+      "fecha": null,
+      "fuentes": [
+        "Resumen del hilo paralelo que identifica ID-03 como aprobado.",
+        "Conversaciones sobre domicilio legal."
+      ],
+      "evidencia_aprobacion": "Existe constancia resumida; falta vincular el mensaje exacto.",
+      "destinos": [
+        "Estatutos, domicilio",
+        "Gestiones de constitución, SII y municipalidad"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Recuperar la aprobación y decidir si se indicará sólo comuna o una dirección.",
+      "instruccion_agente": "No completar dirección específica ni asumir su aptitud tributaria o municipal."
+    },
+    {
+      "id": "PAT-01",
+      "titulo": "Patrimonio inicial y aportes dinerarios",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "parcial",
+      "clasificacion": "publico",
+      "decision": "El patrimonio inicial será de $1.200.000, compuesto por tres aportes dinerarios de $400.000 cada uno.",
+      "fecha": null,
+      "fuentes": [
+        "Resumen del hilo paralelo que identifica PAT-01 como aprobado.",
+        "Borrador de Estatutos de Google Drive."
+      ],
+      "evidencia_aprobacion": "Existe constancia de monto y distribución; falta preservar el mensaje exacto y resolver la oportunidad de los aportes.",
+      "destinos": [
+        "Estatutos, patrimonio inicial",
+        "Artículo transitorio",
+        "Comprobantes de aportes"
+      ],
+      "dependencias": [],
+      "contradicciones": [
+        "El borrador contiene reglas no armonizadas sobre plazo y aportes no dinerarios."
+      ],
+      "accion_siguiente": "Ratificar plazo, forma de entero e individualización; separar aportes iniciales de actos posteriores.",
+      "instruccion_agente": "No identificar aportantes ni fijar plazos sin ratificación."
+    },
+    {
+      "id": "GOB-01",
+      "titulo": "Decisión de gobierno no recuperada",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "brecha",
+      "clasificacion": "publico",
+      "decision": null,
+      "fecha": null,
+      "fuentes": [
+        "Resumen que sólo afirma que GOB-01 fue aprobado."
+      ],
+      "evidencia_aprobacion": "Constancia sin contenido decisorio suficiente.",
+      "destinos": [],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Recuperar el mensaje original o solicitar ratificación.",
+      "instruccion_agente": "Prohibido inferir o reconstruir GOB-01."
+    },
+    {
+      "id": "GOB-02",
+      "titulo": "Tamaño y escalonamiento inicial del Directorio",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "parcial",
+      "clasificacion": "publico",
+      "decision": "El Directorio tendrá entre tres y nueve integrantes. El Directorio inicial tendrá períodos escalonados de tres, cuatro y cinco años.",
+      "fecha": null,
+      "fuentes": [
+        "Resumen del hilo paralelo que conserva GOB-02."
+      ],
+      "evidencia_aprobacion": "Constancia resumida; falta recuperar la asignación, renovación y transición completas.",
+      "destinos": [
+        "Estatutos, integración y duración",
+        "Artículos transitorios"
+      ],
+      "dependencias": [
+        "GOB-03",
+        "GOB-04"
+      ],
+      "contradicciones": [
+        "El issue #1 contiene una alternativa previa de tres a siete integrantes.",
+        "El borrador contempla un período inicial uniforme de cuatro años."
+      ],
+      "accion_siguiente": "Ratificar cohortes, período ordinario, continuidad y vacancias.",
+      "instruccion_agente": "No convertir el escalonamiento inicial en regla permanente sin decisión humana."
+    },
+    {
+      "id": "GOB-03",
+      "titulo": "Decisión de gobierno no recuperada 03",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "brecha",
+      "clasificacion": "publico",
+      "decision": null,
+      "fecha": null,
+      "fuentes": [
+        "Resumen que agrupa GOB-03 a GOB-09 como aprobados sin contenido individual."
+      ],
+      "evidencia_aprobacion": "Constancia genérica insuficiente.",
+      "destinos": [],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Recuperar el original o solicitar ratificación.",
+      "instruccion_agente": "Prohibido inferir o completar GOB-03."
+    },
+    {
+      "id": "GOB-04",
+      "titulo": "Decisión de gobierno no recuperada 04",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "brecha",
+      "clasificacion": "publico",
+      "decision": null,
+      "fecha": null,
+      "fuentes": [
+        "Resumen que agrupa GOB-03 a GOB-09 como aprobados sin contenido individual."
+      ],
+      "evidencia_aprobacion": "Constancia genérica insuficiente.",
+      "destinos": [],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Recuperar el original o solicitar ratificación.",
+      "instruccion_agente": "Prohibido inferir o completar GOB-04."
+    },
+    {
+      "id": "GOB-05",
+      "titulo": "Decisión de gobierno no recuperada 05",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "brecha",
+      "clasificacion": "publico",
+      "decision": null,
+      "fecha": null,
+      "fuentes": [
+        "Resumen que agrupa GOB-03 a GOB-09 como aprobados sin contenido individual."
+      ],
+      "evidencia_aprobacion": "Constancia genérica insuficiente.",
+      "destinos": [],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Recuperar el original o solicitar ratificación.",
+      "instruccion_agente": "Prohibido inferir o completar GOB-05."
+    },
+    {
+      "id": "GOB-06",
+      "titulo": "Decisión de gobierno no recuperada 06",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "brecha",
+      "clasificacion": "publico",
+      "decision": null,
+      "fecha": null,
+      "fuentes": [
+        "Resumen que agrupa GOB-03 a GOB-09 como aprobados sin contenido individual."
+      ],
+      "evidencia_aprobacion": "Constancia genérica insuficiente.",
+      "destinos": [],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Recuperar el original o solicitar ratificación.",
+      "instruccion_agente": "Prohibido inferir o completar GOB-06."
+    },
+    {
+      "id": "GOB-07",
+      "titulo": "Decisión de gobierno no recuperada 07",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "brecha",
+      "clasificacion": "publico",
+      "decision": null,
+      "fecha": null,
+      "fuentes": [
+        "Resumen que agrupa GOB-03 a GOB-09 como aprobados sin contenido individual."
+      ],
+      "evidencia_aprobacion": "Constancia genérica insuficiente.",
+      "destinos": [],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Recuperar el original o solicitar ratificación.",
+      "instruccion_agente": "Prohibido inferir o completar GOB-07."
+    },
+    {
+      "id": "GOB-08",
+      "titulo": "Decisión de gobierno no recuperada 08",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "brecha",
+      "clasificacion": "publico",
+      "decision": null,
+      "fecha": null,
+      "fuentes": [
+        "Resumen que agrupa GOB-03 a GOB-09 como aprobados sin contenido individual."
+      ],
+      "evidencia_aprobacion": "Constancia genérica insuficiente.",
+      "destinos": [],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Recuperar el original o solicitar ratificación.",
+      "instruccion_agente": "Prohibido inferir o completar GOB-08."
+    },
+    {
+      "id": "GOB-09",
+      "titulo": "Decisión de gobierno no recuperada 09",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "brecha",
+      "clasificacion": "publico",
+      "decision": null,
+      "fecha": null,
+      "fuentes": [
+        "Resumen que agrupa GOB-03 a GOB-09 como aprobados sin contenido individual."
+      ],
+      "evidencia_aprobacion": "Constancia genérica insuficiente.",
+      "destinos": [],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Recuperar el original o solicitar ratificación.",
+      "instruccion_agente": "Prohibido inferir o completar GOB-09."
+    },
+    {
+      "id": "GOB-10",
+      "titulo": "Matriz de competencias humanas y de agentes",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "parcial",
+      "clasificacion": "publico",
+      "decision": "Se acordó desarrollar una matriz Agents First para asignar tareas automatizables a agentes IA bajo supervisión, autoridad y responsabilidad humanas. La matriz no está íntegramente cerrada.",
+      "fecha": null,
+      "fuentes": [
+        "Instrucción Agents First y supeditación humana.",
+        "Resumen que identifica GOB-10 como pendiente de término."
+      ],
+      "evidencia_aprobacion": "Aprobación del principio general; falta la matriz completa.",
+      "destinos": [
+        "Reglamento Interno",
+        "Política de gobernanza de agentes IA",
+        "Matriz de competencias"
+      ],
+      "dependencias": [
+        "GOB-11",
+        "GOB-12",
+        "GOB-13"
+      ],
+      "contradicciones": [],
+      "accion_siguiente": "Definir preparación, recomendación, ejecución, autorización, supervisión, escalamiento y prohibiciones.",
+      "instruccion_agente": "No atribuir a agentes potestades decisorias, firma, representación ni aprobación humana."
+    },
+    {
+      "id": "GOB-11",
+      "titulo": "Matriz conceptual no íntegramente preservada 11",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "brecha",
+      "clasificacion": "publico",
+      "decision": null,
+      "fecha": null,
+      "fuentes": [
+        "Resumen que sólo indica la existencia de GOB-11."
+      ],
+      "evidencia_aprobacion": "Referencia insuficiente.",
+      "destinos": [],
+      "dependencias": [
+        "GOB-10"
+      ],
+      "contradicciones": [],
+      "accion_siguiente": "Recuperar el original o solicitar ratificación.",
+      "instruccion_agente": "Prohibido inferir o completar GOB-11."
+    },
+    {
+      "id": "GOB-12",
+      "titulo": "Matriz conceptual no íntegramente preservada 12",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "brecha",
+      "clasificacion": "publico",
+      "decision": null,
+      "fecha": null,
+      "fuentes": [
+        "Resumen que sólo indica la existencia de GOB-12."
+      ],
+      "evidencia_aprobacion": "Referencia insuficiente.",
+      "destinos": [],
+      "dependencias": [
+        "GOB-10"
+      ],
+      "contradicciones": [],
+      "accion_siguiente": "Recuperar el original o solicitar ratificación.",
+      "instruccion_agente": "Prohibido inferir o completar GOB-12."
+    },
+    {
+      "id": "GOB-13",
+      "titulo": "Matriz conceptual truncada 13",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "brecha",
+      "clasificacion": "publico",
+      "decision": null,
+      "fecha": null,
+      "fuentes": [
+        "Traspaso del hilo paralelo en el cual GOB-13 aparece truncado."
+      ],
+      "evidencia_aprobacion": "La fuente disponible no conserva contenido completo.",
+      "destinos": [],
+      "dependencias": [
+        "GOB-10"
+      ],
+      "contradicciones": [],
+      "accion_siguiente": "Recuperar el final de la conversación o solicitar ratificación.",
+      "instruccion_agente": "Prohibido inferir o completar GOB-13."
+    }
+  ]
+}
