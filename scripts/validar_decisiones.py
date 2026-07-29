@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Valida la estructura mínima de un registro de decisiones."""
+"""Valida la estructura mínima de los registros de decisiones."""
 
 import json
 import sys
 from pathlib import Path
 
 
-RUTA_REGISTRO = Path("docs/00_gobernanza_documental/PLANTILLA_REGISTRO_DECISIONES.json")
+RUTAS_REGISTROS = (
+    Path("docs/00_gobernanza_documental/PLANTILLA_REGISTRO_DECISIONES.json"),
+    Path("docs/00_gobernanza_documental/REGISTRO_DECISIONES.json"),
+)
 ESTADOS_DECISORIOS = {
     "pendiente",
     "aprobada",
@@ -15,11 +18,13 @@ ESTADOS_DECISORIOS = {
     "sustituida",
 }
 ESTADOS_INTEGRIDAD = {"completa", "parcial", "brecha"}
+CLASIFICACIONES = {"publico", "reservado"}
 CAMPOS_OBLIGATORIOS = {
     "id",
     "titulo",
     "estado_decisorio",
     "integridad",
+    "clasificacion",
     "decision",
     "fecha",
     "fuentes",
@@ -33,13 +38,13 @@ CAMPOS_OBLIGATORIOS = {
 
 
 def cargar_registro(ruta: Path) -> dict:
-    """Carga el registro JSON desde una ruta controlada."""
+    """Carga un registro JSON desde una ruta controlada."""
     with ruta.open("r", encoding="utf-8") as archivo:
         return json.load(archivo)
 
 
 def validar_decision(decision: dict, identificadores: set[str]) -> list[str]:
-    """Comprueba identidad, estados y consistencia estructural de una decisión."""
+    """Comprueba identidad, estados y consistencia estructural."""
     errores: list[str] = []
     faltantes = CAMPOS_OBLIGATORIOS - set(decision)
     if faltantes:
@@ -55,6 +60,8 @@ def validar_decision(decision: dict, identificadores: set[str]) -> list[str]:
         errores.append("Estado decisorio no permitido.")
     if decision["integridad"] not in ESTADOS_INTEGRIDAD:
         errores.append("Estado de integridad no permitido.")
+    if decision["clasificacion"] not in CLASIFICACIONES:
+        errores.append("Clasificación no permitida.")
     if not decision["fuentes"]:
         errores.append("Debe existir al menos una fuente.")
     if not decision["accion_siguiente"]:
@@ -72,7 +79,7 @@ def validar_decision(decision: dict, identificadores: set[str]) -> list[str]:
 
     if decision["integridad"] == "brecha":
         if decision["decision"] is not None:
-            errores.append("Una brecha de contenido debe conservar decision=null hasta su recuperación.")
+            errores.append("Una brecha exige decision=null hasta su recuperación.")
         if "inferir" not in decision["instruccion_agente"].lower():
             errores.append("La instrucción de una brecha debe prohibir inferencias.")
 
@@ -80,49 +87,56 @@ def validar_decision(decision: dict, identificadores: set[str]) -> list[str]:
 
 
 def calcular_indicadores(decisiones: list[dict]) -> dict[str, int]:
-    """Calcula indicadores simples sin ocultar las brechas semánticas."""
+    """Calcula indicadores sin ocultar brechas semánticas."""
     return {
         "total": len(decisiones),
         "integridad_completa": sum(d["integridad"] == "completa" for d in decisiones),
         "integridad_parcial": sum(d["integridad"] == "parcial" for d in decisiones),
         "brechas": sum(d["integridad"] == "brecha" for d in decisiones),
         "pendientes": sum(d["estado_decisorio"] == "pendiente" for d in decisiones),
+        "reservadas": sum(d["clasificacion"] == "reservado" for d in decisiones),
     }
 
 
-def main() -> int:
-    """Ejecuta la validación y devuelve un código útil para integración continua."""
+def validar_registro(ruta: Path) -> tuple[list[str], dict[str, int] | None]:
+    """Valida un registro completo y devuelve errores e indicadores."""
     try:
-        registro = cargar_registro(RUTA_REGISTRO)
+        registro = cargar_registro(ruta)
     except (OSError, json.JSONDecodeError) as error:
-        print(f"ERROR: no fue posible cargar el registro: {error}")
-        return 1
+        return [f"No fue posible cargar el registro: {error}"], None
 
     decisiones = registro.get("decisiones")
     if not isinstance(decisiones, list):
-        print("ERROR: el campo decisiones debe ser una lista.")
-        return 1
+        return ["El campo decisiones debe ser una lista."], None
 
-    errores_totales: list[str] = []
+    errores: list[str] = []
     identificadores: set[str] = set()
-
     for decision in decisiones:
         identificador = decision.get("id", "SIN-ID")
         for error in validar_decision(decision, identificadores):
-            errores_totales.append(f"{identificador}: {error}")
+            errores.append(f"{identificador}: {error}")
 
-    if errores_totales:
-        print("VALIDACIÓN FALLIDA")
-        for error in errores_totales:
-            print(f"- {error}")
-        return 1
+    return errores, calcular_indicadores(decisiones)
 
-    indicadores = calcular_indicadores(decisiones)
-    print("VALIDACIÓN ESTRUCTURAL APROBADA")
-    for nombre, valor in indicadores.items():
-        print(f"- {nombre}: {valor}")
+
+def main() -> int:
+    """Ejecuta todas las validaciones para integración continua."""
+    hubo_errores = False
+    for ruta in RUTAS_REGISTROS:
+        errores, indicadores = validar_registro(ruta)
+        if errores:
+            hubo_errores = True
+            print(f"VALIDACIÓN FALLIDA: {ruta}")
+            for error in errores:
+                print(f"- {error}")
+            continue
+
+        print(f"VALIDACIÓN ESTRUCTURAL APROBADA: {ruta}")
+        for nombre, valor in (indicadores or {}).items():
+            print(f"- {nombre}: {valor}")
+
     print("ADVERTENCIA: la validación estructural no reemplaza la revisión semántica ni la aprobación humana.")
-    return 0
+    return 1 if hubo_errores else 0
 
 
 if __name__ == "__main__":
