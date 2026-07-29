@@ -1,0 +1,30 @@
+name: Validar gobernanza documental
+
+on:
+  pull_request:
+    paths:
+      - "docs/00_gobernanza_documental/**"
+      - "scripts/validar_decisiones.py"
+      - ".github/workflows/validar-gobernanza.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/00_gobernanza_documental/**"
+      - "scripts/validar_decisiones.py"
+
+permissions:
+  contents: read
+
+jobs:
+  validar-decisiones:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validar registro maestro
+        run: python scripts/validar_decisiones.py
