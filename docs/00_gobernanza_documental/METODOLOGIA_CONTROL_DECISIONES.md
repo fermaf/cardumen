@@ -5,104 +5,39 @@
 
 ## 1. Unidad mínima
 
-Cada asunto recibe un identificador estable:
-
-- `ID-##`: identidad, nombre y domicilio.
-- `PAT-##`: patrimonio y aportes.
-- `GOB-##`: gobierno, administración y controles.
-- `OBJ-##`: objeto, fines y beneficiarios.
-- `DON-##`: donaciones, fondos y franquicias.
-- `DIG-##`: activos y tecnologías digitales.
-- `NOR-##`: verificación normativa.
-- `REP-##`: arquitectura y continuidad de repositorios.
-- `PUB-##`: publicidad, reserva y clasificación.
-
-Un ID no se reutiliza. Una decisión sustituida conserva su registro y apunta al ID que la reemplaza.
+Cada asunto recibe un identificador estable: `ID-##`, `PAT-##`, `GOB-##`, `OBJ-##`, `DON-##`, `DIG-##`, `NOR-##`, `REP-##` o `PUB-##`. Un ID no se reutiliza.
 
 ## 2. Dos estados distintos
-
-El registro separa:
 
 - **Estado decisorio:** pendiente, aprobada, aprobada con consolidación pendiente, descartada o sustituida.
 - **Estado de integridad:** completa, parcial o brecha.
 
-“Aprobada” no significa necesariamente “íntegramente preservada”.
+“Aprobada” no significa que exista texto jurídico definitivo ni implementación final.
 
-## 3. Campos obligatorios
-
-Cada registro contiene:
-
-- identificador y título;
-- estado decisorio;
-- estado de integridad;
-- clasificación pública o reservada;
-- decisión o descripción expresa de la brecha;
-- fecha conocida o `null`;
-- fuentes y evidencia;
-- documentos de destino;
-- dependencias y contradicciones;
-- acción siguiente;
-- instrucción para agentes.
-
-## 4. Ciclo
+## 3. Ciclo
 
 1. Levantamiento.
 2. Deliberación.
 3. Aprobación humana.
-4. Consolidación.
-5. Mapeo documental.
-6. Implementación mediante PR.
-7. Verificación semántica.
-8. Cierre humano y registro del commit.
+4. Consolidación jurídica y documental.
+5. Implementación mediante PR.
+6. Verificación semántica.
+7. Cierre humano y registro del commit.
 
-## 5. Regla para agentes IA
+## 4. Regla para agentes IA
 
-Los agentes pueden preparar, comparar, detectar omisiones y proponer texto. No pueden:
+Los agentes pueden preparar, comparar, detectar omisiones y proponer texto. No pueden marcar una decisión como aprobada, completar una brecha por inferencia, elegir alternativas fundacionales, fusionar un PR ni declarar un documento final sin autorización humana.
 
-- marcar una decisión como aprobada;
-- convertir una síntesis incompleta en contenido normativo;
-- cerrar una brecha de evidencia;
-- elegir entre alternativas fundacionales;
-- fusionar un PR o declarar un documento final sin autorización humana.
+## 5. Publicidad y reserva
 
-Cuando falte información, registran `integridad: brecha` y una acción de recuperación.
+La fase constituyente es pública por defecto desde el 29 de julio de 2026. La reserva es excepcional, previa y justificada. La publicidad de una deliberación no la transforma en acuerdo institucional ni en texto jurídico vigente.
 
-## 6. Publicidad y reserva
+## 6. Control de cambios
 
-La fase constituyente es pública por defecto desde el 29 de julio de 2026. Cada registro indica:
+Todo PR que altere Estatutos, Reglamento, políticas o anexos debe indicar IDs afectados, texto anterior y propuesto, fundamento jurídico verificado, decisión humana requerida y resultado del validador.
 
-- `clasificacion: publico`, si puede incorporarse íntegramente;
-- `clasificacion: reservado`, si existe razón concreta de protección.
+## 7. Recuperación de 2026-07-29
 
-La autorización no opera retroactivamente sobre conversaciones o documentos históricos no revisados. El índice público de una decisión reservada conservará, cuando sea posible, un resumen no sensible, su estado y una referencia controlada.
+La recuperación desde `Proyecto_ONG_Cardumen_conversacion_completa.md` se conserva en [EVIDENCIA_RECUPERACION_2026-07-29.md](EVIDENCIA_RECUPERACION_2026-07-29.md). Sustituye la premisa anterior que calificaba como brechas a GOB-01, GOB-03 a GOB-09, GOB-11 a GOB-12 y el contenido base de GOB-13.
 
-Los agentes no pueden desclasificar contenido ni usar la reserva para ocultar brechas, errores o desacuerdos.
-
-## 7. Control de cambios
-
-Todo PR que altere Estatutos, Reglamento, políticas o anexos indica:
-
-- IDs afectados;
-- texto anterior y propuesto;
-- si preserva, implementa, modifica o contradice cada decisión;
-- fundamento jurídico verificado y fecha;
-- decisión humana requerida;
-- resultado del validador estructural.
-
-No se mezclan recuperación de decisiones perdidas y redacción jurídica final, salvo revisión separable en el cuerpo del PR.
-
-## 8. Índice de integridad
-
-| Dimensión | Peso |
-|---|---:|
-| Contenido decisorio completo. | 30. |
-| Evidencia de origen y aprobación. | 20. |
-| Destino documental identificado. | 20. |
-| Implementación vinculada a commit o PR. | 20. |
-| Validación humana o jurídica registrada. | 10. |
-
-El puntaje no reemplaza el juicio humano. Una brecha de contenido impide declarar la decisión íntegramente implementada.
-
-## 9. Situación heredada
-
-El hilo paralelo terminó afirmando que `GOB-03` a `GOB-09` estaban aprobadas, pero el resumen no conservó su contenido individual. La pérdida se registra como brecha y deberá recuperarse desde la conversación completa o mediante ratificación humana; no se reconstruirá por inferencia.
+La siguiente etapa no es redactar por inferencia: es contrastar estas decisiones con la pestaña “ESTATUTOS (JUNIO)”, verificar la normativa chilena aplicable y generar una propuesta armonizada separando Estatutos, Reglamento, políticas y matrices.
