@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Valida la estructura mínima del registro de decisiones de Cardumen."""
+"""Valida la estructura mínima de un registro de decisiones."""
 
 import json
 import sys
 from pathlib import Path
 
 
-RUTA_REGISTRO = Path("docs/00_gobernanza_documental/REGISTRO_MAESTRO_DECISIONES_CARDUMEN.json")
+RUTA_REGISTRO = Path("docs/00_gobernanza_documental/PLANTILLA_REGISTRO_DECISIONES.json")
 ESTADOS_DECISORIOS = {
     "pendiente",
     "aprobada",
