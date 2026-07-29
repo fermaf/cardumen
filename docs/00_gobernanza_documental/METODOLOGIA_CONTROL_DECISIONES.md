@@ -5,7 +5,7 @@
 
 ## 1. Unidad mínima
 
-Cada asunto recibe un identificador estable por dominio:
+Cada asunto recibe un identificador estable:
 
 - `ID-##`: identidad, nombre y domicilio.
 - `PAT-##`: patrimonio y aportes.
@@ -14,6 +14,8 @@ Cada asunto recibe un identificador estable por dominio:
 - `DON-##`: donaciones, fondos y franquicias.
 - `DIG-##`: activos y tecnologías digitales.
 - `NOR-##`: verificación normativa.
+- `REP-##`: arquitectura y continuidad de repositorios.
+- `PUB-##`: publicidad, reserva y clasificación.
 
 Un ID no se reutiliza. Una decisión sustituida conserva su registro y apunta al ID que la reemplaza.
 
@@ -24,33 +26,34 @@ El registro separa:
 - **Estado decisorio:** pendiente, aprobada, aprobada con consolidación pendiente, descartada o sustituida.
 - **Estado de integridad:** completa, parcial o brecha.
 
-“Aprobada” no significa necesariamente “íntegramente preservada”. Este principio permite reconocer acuerdos humanos sin inventar el contenido que se perdió.
+“Aprobada” no significa necesariamente “íntegramente preservada”.
 
 ## 3. Campos obligatorios
 
-Cada registro debe contener:
+Cada registro contiene:
 
 - identificador y título;
 - estado decisorio;
 - estado de integridad;
+- clasificación pública o reservada;
 - decisión o descripción expresa de la brecha;
 - fecha conocida o `null`;
-- fuente y evidencia;
+- fuentes y evidencia;
 - documentos de destino;
 - dependencias y contradicciones;
 - acción siguiente;
 - instrucción para agentes.
 
-## 4. Ciclo de una decisión
+## 4. Ciclo
 
-1. **Levantada:** existe una pregunta o problema identificado.
-2. **Deliberación:** alternativas y riesgos quedan documentados.
-3. **Aprobación humana:** se conserva una evidencia inequívoca.
-4. **Consolidación:** se redacta la decisión completa sin inducir contenido nuevo.
-5. **Mapeo:** se asignan documentos, artículos o políticas de destino.
-6. **Implementación:** un PR aplica el cambio.
-7. **Verificación:** se compara semánticamente el texto con la decisión.
-8. **Cierre:** una persona autoriza el cierre y se registra el commit.
+1. Levantamiento.
+2. Deliberación.
+3. Aprobación humana.
+4. Consolidación.
+5. Mapeo documental.
+6. Implementación mediante PR.
+7. Verificación semántica.
+8. Cierre humano y registro del commit.
 
 ## 5. Regla para agentes IA
 
@@ -62,11 +65,22 @@ Los agentes pueden preparar, comparar, detectar omisiones y proponer texto. No p
 - elegir entre alternativas fundacionales;
 - fusionar un PR o declarar un documento final sin autorización humana.
 
-Cuando falte información, deben registrar `integridad: brecha` y formular una acción de recuperación.
+Cuando falte información, registran `integridad: brecha` y una acción de recuperación.
 
-## 6. Control de cambios
+## 6. Publicidad y reserva
 
-Todo PR que altere Estatutos, Reglamento, políticas o anexos deberá indicar:
+La fase constituyente es pública por defecto desde el 29 de julio de 2026. Cada registro indica:
+
+- `clasificacion: publico`, si puede incorporarse íntegramente;
+- `clasificacion: reservado`, si existe razón concreta de protección.
+
+La autorización no opera retroactivamente sobre conversaciones o documentos históricos no revisados. El índice público de una decisión reservada conservará, cuando sea posible, un resumen no sensible, su estado y una referencia controlada.
+
+Los agentes no pueden desclasificar contenido ni usar la reserva para ocultar brechas, errores o desacuerdos.
+
+## 7. Control de cambios
+
+Todo PR que altere Estatutos, Reglamento, políticas o anexos indica:
 
 - IDs afectados;
 - texto anterior y propuesto;
@@ -75,11 +89,9 @@ Todo PR que altere Estatutos, Reglamento, políticas o anexos deberá indicar:
 - decisión humana requerida;
 - resultado del validador estructural.
 
-No se mezclan en un mismo PR la recuperación de decisiones perdidas y la redacción jurídica final, salvo que el cuerpo del PR permita revisarlas separadamente.
+No se mezclan recuperación de decisiones perdidas y redacción jurídica final, salvo revisión separable en el cuerpo del PR.
 
-## 7. Índice de integridad
-
-La evaluación por decisión usa cinco dimensiones:
+## 8. Índice de integridad
 
 | Dimensión | Peso |
 |---|---:|
@@ -87,10 +99,10 @@ La evaluación por decisión usa cinco dimensiones:
 | Evidencia de origen y aprobación. | 20. |
 | Destino documental identificado. | 20. |
 | Implementación vinculada a commit o PR. | 20. |
-| Validación humana/jurídica registrada. | 10. |
+| Validación humana o jurídica registrada. | 10. |
 
-El puntaje no reemplaza el juicio humano. Sirve para detectar dónde se perdió la cadena de custodia. Una brecha en contenido decisorio impide declarar la decisión íntegramente implementada aunque el total numérico sea alto.
+El puntaje no reemplaza el juicio humano. Una brecha de contenido impide declarar la decisión íntegramente implementada.
 
-## 8. Situación heredada que origina este sistema
+## 9. Situación heredada
 
-El hilo paralelo terminó afirmando que `GOB-03` a `GOB-09` estaban aprobadas, pero el resumen final no conservó el contenido individual de esas siete decisiones. Es una pérdida de procedencia y contenido. Se registra como brecha explícita y deberá recuperarse desde la conversación completa o mediante ratificación humana; no se reconstruirá por inferencia.
+El hilo paralelo terminó afirmando que `GOB-03` a `GOB-09` estaban aprobadas, pero el resumen no conservó su contenido individual. La pérdida se registra como brecha y deberá recuperarse desde la conversación completa o mediante ratificación humana; no se reconstruirá por inferencia.
