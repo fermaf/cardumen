@@ -2,7 +2,7 @@
 
 **Versión D2 — 29 de julio de 2026.** Iteración de discusión basada en la pestaña **“ESTATUTOS (JUNIO)”** del documento Drive *PROPUESTA ONG*, sus quince comentarios abiertos, `REGISTRO_DECISIONES.json` v0.3.0 y la evidencia recuperada en el PR #5. No es instrumento constitutivo ni texto aprobado.
 
-> **Decisiones que siguen abiertas antes de otorgar el acto constitutivo:** denominación legal y abreviatura; individualización de los tres fundadores; asignación personal de los cargos iniciales y de sus períodos escalonados; persona apoderada para la tramitación. “Cardumen” sigue siendo una denominación de trabajo.
+> **Decisiones que siguen abiertas antes de otorgar el acto constitutivo:** denominación legal y abreviatura; individualización de los tres fundadores/directores y asignación personal de los cargos iniciales y de sus períodos escalonados; reglas básicas para determinar beneficiarios; e institución sin fines de lucro destinataria de los bienes en caso de disolución. “Cardumen” sigue siendo una denominación de trabajo. La comparecencia al acto puede hacerse personalmente o por mandatario y no es una definición estatutaria pendiente.
 
 ## TÍTULO I. NOMBRE, NATURALEZA, DOMICILIO, DURACIÓN Y OBJETO
 
@@ -23,6 +23,8 @@ La duración será indefinida.
 La Fundación tiene por objeto contribuir al interés general mediante educación, investigación aplicada, innovación, transferencia de conocimiento y fortalecimiento de capacidades públicas, comunitarias, académicas y sociales para el uso responsable, abierto, seguro, ético y socialmente beneficioso de tecnologías digitales.
 
 Su objeto comprende, entre otras materias conexas: inteligencia artificial, ciencia de datos, automatización, privacidad y protección de datos, ciberseguridad, infraestructura y gobernanza digital, tecnologías de confianza, identidad y credenciales digitales, registros distribuidos, trazabilidad, transparencia, participación ciudadana, acceso a información, interoperabilidad y transformación digital.
+
+Serán beneficiarias las personas, comunidades, organizaciones e instituciones que se determinen mediante criterios objetivos, pertinentes al objeto fundacional, no discriminatorios y definidos en los programas o convocatorias aprobados por el Directorio, conforme a las reglas básicas siguientes: **[PRECISAR CRITERIOS BÁSICOS DE PRIORIZACIÓN Y ELEGIBILIDAD]**.
 
 ### Artículo 4. Actividades.
 
@@ -58,7 +60,7 @@ La aceptación, valorización, custodia, conversión, liquidación, registro con
 
 La Fundación será administrada por un Directorio de tres a nueve miembros. Los tres fundadores integrarán el primer Directorio. La calidad de fundador no confiere permanencia, veto ni atribuciones distintas de las que correspondan como director.
 
-La Fundación no tendrá socios, miembros suscritos ni una asamblea con atribuciones de gobierno. Podrá mantener comunidades, redes, personas colaboradoras, voluntarias, mentoras, asesoras o aliadas, y órganos consultivos no vinculantes. Tales calidades no otorgarán derechos patrimoniales, administrativos o de designación de directores, salvo reforma estatutaria posterior.
+La Fundación no tendrá socios, miembros suscritos ni una asamblea con atribuciones de gobierno. Podrá mantener comunidades, redes, personas colaboradoras, voluntarias, mentoras, asesoras o aliadas, y órganos consultivos no vinculantes. Tales calidades no otorgarán derechos patrimoniales, administrativos o de designación de directores.
 
 Los directores deberán ser personas legalmente hábiles e idóneas para el cargo. Desempeñarán su función gratuitamente, sin perjuicio de los reembolsos de gastos autorizados y de la retribución por servicios distintos permitida por el artículo 551-1 del Código Civil y estos estatutos.
 
@@ -144,7 +146,7 @@ Los estatutos se modificarán por acuerdo de dos tercios de los miembros del Dir
 
 ### Artículo 21. Disolución y destino de bienes.
 
-La disolución requerirá el acuerdo de dos tercios de los miembros del Directorio en ejercicio y se sujetará a las causales y procedimientos legales. Pagadas las obligaciones, los bienes remanentes se destinarán a una o más personas jurídicas sin fines de lucro vigentes, con fines análogos o complementarios, que determine el Directorio en el acuerdo de disolución.
+La disolución requerirá el acuerdo de dos tercios de los miembros del Directorio en ejercicio y se sujetará a las causales y procedimientos legales. Pagadas las obligaciones, los bienes remanentes se destinarán a la persona jurídica sin fines de lucro vigente **[IDENTIFICAR ENTIDAD DESTINATARIA]**, cuyos fines son análogos o complementarios a los de la Fundación.
 
 ## DISPOSICIONES TRANSITORIAS
 
@@ -167,13 +169,13 @@ Se confiere poder a **[NOMBRE COMPLETO, RUT]** para realizar las actuaciones for
 ## Notas de discusión D2
 
 1. Esta versión absorbe el comentario sobre aportes: el trabajo fundador no es aporte inicial ni se deriva a un anexo patrimonial. Eso no impide trabajo gratuito ni contratos posteriores válidamente aprobados.
-2. Se opta provisionalmente por una fundación sin membresía de gobierno. Las comunidades y órganos consultivos son posibles, pero no eligen directorio ni sustituyen su responsabilidad. Si se desea un modelo de socios con voto, debe redeliberarse y rediseñarse el gobierno como decisión estructural.
+2. La fundación no puede incorporar una membresía con voto o una asamblea de gobierno: esa estructura corresponde a una asociación o corporación. Las comunidades y órganos consultivos son posibles, pero no eligen Directorio ni sustituyen su responsabilidad.
 3. La firma conjunta queda como control que el Directorio debe configurar por materias y riesgo; no se impone una firma doble absoluta que paralice la operación ni se deja la segregación sin base estatutaria.
 4. Se conserva la habilitación de activos digitales propios y de terceros especializados, agregando prohibición de uso personal y exigencia de control institucional; no habilita custodia o administración de activos de terceros.
 5. La Ley N° 21.440 no convierte a la Fundación en donataria por la sola redacción: la inscripción y el cumplimiento del régimen se gestionan posteriormente.
 
 ### Fuentes normativas verificadas al 29 de julio de 2026
 
-- Código Civil, Título XXXIII del Libro I, artículos 551-1, 557-1, 557-2, 557-3 y 558, vigentes: gratuidad y retribución de servicios distintos; contabilidad, memoria y balance; actividades económicas; actas y registros; y reforma estatutaria de fundaciones.
+- Código Civil, Título XXXIII del Libro I, artículos 545, 548-2, 551-1, 557-1, 557-2, 557-3 y 558, vigentes: diferencia entre asociación y fundación; contenido estatutario obligatorio; gratuidad y retribución de servicios distintos; contabilidad, memoria y balance; actividades económicas; actas y registros; y reforma estatutaria de fundaciones.
 - Ley N° 20.500, vigente: regula el régimen aplicable a asociaciones y fundaciones y el Registro Nacional de Personas Jurídicas sin Fines de Lucro.
 - Ley N° 21.440, vigente: crea un régimen de donaciones con beneficios tributarios y el Registro Público de Donatarias; su habilitación no se presume por la constitución de la Fundación.
