@@ -5,13 +5,15 @@
 > Repositorio: `fermaf/cardumen`.  
 > Rama de trabajo: `agent/gobernanza-decisiones-integridad`.  
 > PR: #5.  
+> Base material y texto de partida: pestaña `ESTATUTOS (JUNIO)` del Google Doc `1BYsJleZ3nFw3vypWR1mXxd4hs5AUQEzEuaCpZVWOjfU`.  
+> Función de GitHub: referencia, recuperación de decisiones y trazabilidad; no sustituye el texto de Google Drive.  
 > Regla rectora: el modelo lee, contrasta y propone; la persona decide. No se completa ninguna brecha por inferencia.
 
 ## 1. Propósito
 
 Este protocolo permite continuar la corrección de los Estatutos con un modelo de inferencia de menor capacidad, especialmente GPT-5.6 Luna, sin depender de memoria conversacional débil.
 
-El modelo no debe reconstruir por intuición el estado del proyecto. Antes de actuar debe leer las fuentes indicadas, declarar la línea base que encontró y ejecutar una sola unidad de corrección por ciclo.
+El modelo no debe reconstruir por intuición el estado del proyecto. Antes de actuar debe leer la revisión vigente de Google Drive, identificar los comentarios de Fernando vinculados a la unidad y contrastarlos con las fuentes de referencia. Debe declarar la línea base que encontró y ejecutar una sola unidad de corrección por ciclo.
 
 La palabra **“continuemos”** significa exclusivamente:
 
@@ -23,38 +25,41 @@ La palabra **“continuemos”** significa exclusivamente:
 
 No significa redactar varios artículos, cerrar comentarios, modificar Drive, aprobar decisiones ni fusionar el PR.
 
-## 2. Jerarquía de autoridad
+## 2. Base material, autoridad y referencias
 
-Cuando dos fuentes difieran, se aplica este orden:
+No debe confundirse el texto que se corrige con las fuentes que orientan la corrección.
 
-1. Normativa chilena vigente verificada en fuente oficial.
-2. Decisión humana expresa registrada con evidencia.
-3. `REGISTRO_DECISIONES.json`.
-4. Este protocolo y `PLAN_ARMONIZACION_ESTATUTOS_2026-07-31.md`.
-5. Texto vigente de la pestaña `ESTATUTOS (JUNIO)` y sus comentarios.
-6. Levantamiento integral y matrices del PR #5.
-7. Borradores D2 y anteriores.
-8. Inferencias o recomendaciones del modelo.
+- **Base material:** la revisión vigente de la pestaña `ESTATUTOS (JUNIO)` de Google Drive. Toda propuesta debe partir de su texto exacto y de su estructura actual.
+- **Comentarios de Fernando:** son insumos obligatorios de análisis y resolución. Cada comentario aplicable debe identificarse, evaluarse y recibir una salida fundada: acogido, acogido parcialmente, descartado, pendiente o reservado. No puede omitirse por el solo hecho de no aparecer en GitHub.
+- **Comentarios de Gonzalo:** se conservan para discusión humana posterior y no se resuelven automáticamente.
+- **Autoridad jurídica:** normativa chilena vigente verificada en fuente oficial.
+- **Autoridad decisoria:** instrucciones humanas expresas y decisiones registradas con evidencia.
+- **GitHub y PR #5:** contienen referencias, levantamientos, decisiones recuperadas y trazabilidad. Sirven para contrastar y registrar; no reemplazan ni gobiernan por sí solos el texto de Google Drive.
+- **Borradores D2 y anteriores:** son antecedentes comparativos, nunca la base automática de D3.
+- **Inferencias del modelo:** sólo pueden formularse como propuestas.
 
-Una fuente de menor jerarquía no puede alterar otra superior. Los números, fechas y referencias normativas de los documentos de trabajo deben verificarse antes de usarse como fundamento.
+Si el texto de Google Drive contradice una norma o una decisión humana vigente, el modelo debe mostrar la contradicción y proponer su corrección. No debe sustituir silenciosamente el texto base. Los comentarios de Fernando son importantes y obligatorios de procesar, pero no se convierten por sí solos en normas ni decisiones aprobadas.
 
 ## 3. Lectura obligatoria al iniciar o reanudar
 
 Antes de responder al primer “continuemos” de una sesión, el modelo debe leer en este orden:
 
-1. `docs/00_gobernanza_documental/PROTOCOLO_EJECUCION_GUIADA_MODELO_LIGERO.md`.
-2. `docs/00_gobernanza_documental/METODOLOGIA_CONTROL_DECISIONES.md`.
-3. `docs/00_gobernanza_documental/REGISTRO_DECISIONES.json`.
-4. `docs/00_gobernanza_documental/PLAN_ARMONIZACION_ESTATUTOS_2026-07-31.md`.
-5. `docs/01_borradores/LEVANTAMIENTO_INTEGRAL_ESTATUTOS_JUNIO_2026-07-31.md`.
-6. `docs/01_borradores/MATRIZ_COMENTARIOS_ESTATUTOS_JUNIO_D2.md`.
-7. La revisión actual de la pestaña `ESTATUTOS (JUNIO)` y los comentarios aplicables.
-8. El último borrador D3, la bitácora y la matriz de cambios, si ya existen.
+1. `docs/00_gobernanza_documental/PROTOCOLO_EJECUCION_GUIADA_MODELO_LIGERO.md`, para conocer el procedimiento.
+2. La revisión actual completa de la pestaña `ESTATUTOS (JUNIO)` de Google Drive, con su `revisionId`, `tabId` y estructura.
+3. Todos los comentarios abiertos y resueltos pertinentes de Fernando, conservando su anclaje al texto; identificar separadamente los comentarios de Gonzalo.
+4. `docs/01_borradores/LEVANTAMIENTO_INTEGRAL_ESTATUTOS_JUNIO_2026-07-31.md`.
+5. `docs/01_borradores/MATRIZ_COMENTARIOS_ESTATUTOS_JUNIO_D2.md`.
+6. `docs/00_gobernanza_documental/REGISTRO_DECISIONES.json`.
+7. `docs/00_gobernanza_documental/METODOLOGIA_CONTROL_DECISIONES.md`.
+8. `docs/00_gobernanza_documental/PLAN_ARMONIZACION_ESTATUTOS_2026-07-31.md`.
+9. El último borrador D3, la bitácora y la matriz de cambios, si ya existen.
+10. D2 y otros archivos de GitHub sólo cuando sean necesarios como referencia histórica.
 
 Luego debe informar brevemente:
 
-- repositorio, rama y commit leídos;
-- revisión de Google Docs, si está disponible;
+- Google Doc, pestaña, `revisionId` y `tabId` usados como base;
+- comentarios de Fernando vinculados a la unidad y su estado;
+- repositorio, rama y commit consultados como referencia;
 - última unidad cerrada;
 - siguiente unidad elegible;
 - bloqueos detectados.
@@ -95,7 +100,7 @@ No saltar a una unidad “más fácil” sin explicarlo.
 
 ### Paso 2 — Leer el contexto local
 
-Leer el artículo completo, los artículos relacionados, el comentario asociado, la decisión registrada y la normativa aplicable.
+Leer desde Google Drive el artículo completo y los artículos relacionados. Después leer todos los comentarios de Fernando asociados, la decisión registrada y la normativa aplicable. GitHub se consulta como referencia y trazabilidad.
 
 No analizar una frase aislada si su significado depende de otro artículo, del Reglamento o de una política.
 
@@ -208,13 +213,13 @@ No comenzar otra unidad en la misma respuesta salvo orden humana expresa.
 
 ### GitHub
 
-GitHub es el registro canónico de decisiones y trazabilidad. Cada corrección aprobada debe quedar incorporada a la rama del PR #5.
+GitHub es el registro persistente de decisiones, antecedentes y trazabilidad. No es la base textual de la corrección. Cada corrección aprobada debe quedar incorporada a la rama del PR #5 como evidencia de lo deliberado sobre Google Drive.
 
 Los commits pueden agrupar correcciones estrechamente relacionadas, pero ninguna corrección sustantiva puede quedar fuera del registro.
 
 ### Google Docs
 
-Google Docs es la base material de discusión. Durante la elaboración D3:
+Google Docs es la base material y el texto de partida de la corrección. Los comentarios de Fernando son insumos obligatorios del proceso. Durante la elaboración D3:
 
 - leer el texto y los comentarios;
 - no cerrar comentarios;
@@ -291,7 +296,8 @@ Volver a Sol cuando se active cualquiera de los límites de la sección 8, al te
 
 Al corte de este protocolo:
 
-- El PR #5 está abierto y en borrador.
+- La pestaña `ESTATUTOS (JUNIO)` de Google Drive es la base textual vigente de la corrección.
+- El PR #5 está abierto y en borrador y se usa como referencia y trazabilidad.
 - `REGISTRO_DECISIONES.json` v0.4.0 contiene 18 entradas: 16 completas, 2 parciales, 0 brechas y 1 decisión pendiente.
 - `ID-01`, nombre legal y relación con Cardumen, continúa pendiente.
 - La membresía con voto está descartada.
@@ -315,27 +321,28 @@ Criterios ya expresados durante la deliberación, aún sujetos a consolidación:
 - distinguir autonomía tecnológica, soberanía digital, derechos digitales y capacidades institucionales sin repetirlos;
 - no presentar como aprobado el último texto conversacional.
 
-La siguiente ejecución debe presentar la ficha `OBJ-01`, contrastada con los artículos cuarto, quinto y sexto, el levantamiento y la normativa aplicable. No debe proponer todavía una versión completa de D3.
+La siguiente ejecución debe leer desde Google Drive los artículos cuarto, quinto y sexto, junto con los comentarios de Fernando que los afecten; después debe contrastarlos con el levantamiento, las decisiones recuperadas y la normativa aplicable. Debe presentar la ficha `OBJ-01` y no proponer todavía una versión completa de D3.
 
 ## 11. Instrucción de arranque para GPT-5.6 Luna
 
 Usar este texto al cambiar de modelo o al iniciar una conversación nueva:
 
 ```text
-Trabaja en fermaf/cardumen, PR #5, rama agent/gobernanza-decisiones-integridad.
+La base textual de la corrección es la pestaña ESTATUTOS (JUNIO) del Google Doc:
+https://docs.google.com/document/d/1BYsJleZ3nFw3vypWR1mXxd4hs5AUQEzEuaCpZVWOjfU/edit?tab=t.v0xtswn6rj85
 
-Antes de razonar, lee íntegramente:
-1. docs/00_gobernanza_documental/PROTOCOLO_EJECUCION_GUIADA_MODELO_LIGERO.md
-2. docs/00_gobernanza_documental/METODOLOGIA_CONTROL_DECISIONES.md
-3. docs/00_gobernanza_documental/REGISTRO_DECISIONES.json
-4. docs/00_gobernanza_documental/PLAN_ARMONIZACION_ESTATUTOS_2026-07-31.md
-5. docs/01_borradores/LEVANTAMIENTO_INTEGRAL_ESTATUTOS_JUNIO_2026-07-31.md
-6. docs/01_borradores/MATRIZ_COMENTARIOS_ESTATUTOS_JUNIO_D2.md
-7. la revisión actual de la pestaña ESTATUTOS (JUNIO) de Google Docs.
+GitHub fermaf/cardumen, PR #5 y rama agent/gobernanza-decisiones-integridad son referencias y registro de trazabilidad; no sustituyen el documento de Google Drive.
 
-No reconstruyas decisiones desde memoria ni completes vacíos por inferencia. Confirma la línea base y ejecuta una sola unidad según el protocolo.
+Antes de razonar:
+1. Lee íntegramente docs/00_gobernanza_documental/PROTOCOLO_EJECUCION_GUIADA_MODELO_LIGERO.md.
+2. Lee la revisión vigente completa de ESTATUTOS (JUNIO), registra revisionId y tabId.
+3. Lee y vincula todos los comentarios pertinentes de Fernando. Son insumos obligatorios de análisis; no los omitas aunque no aparezcan en GitHub.
+4. Identifica por separado los comentarios de Gonzalo y no los resuelvas.
+5. Consulta el levantamiento, la matriz, REGISTRO_DECISIONES.json y el plan del PR #5 como antecedentes y restricciones.
 
-“Continuemos” significa preparar la siguiente ficha de corrección elegible. El punto actual es OBJ-01, artículo cuarto. No edites Drive, no cierres comentarios y no resuelvas los comentarios de Gonzalo.
+No reconstruyas decisiones desde memoria ni completes vacíos por inferencia. Confirma primero la línea base de Google Drive y ejecuta una sola unidad según el protocolo.
+
+“Continuemos” significa preparar la siguiente ficha de corrección elegible. El punto actual es OBJ-01, artículo cuarto. No edites Drive ni cierres comentarios durante la deliberación.
 ```
 
 En la misma conversación, después de ejecutar correctamente esta instrucción una vez, basta decir **“continuemos”**. En una conversación nueva debe repetirse la instrucción de arranque o existir una instrucción de proyecto equivalente.
