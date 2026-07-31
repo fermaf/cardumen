@@ -2,16 +2,26 @@
 
 ## Objetivo
 
-Producir una nueva iteración integral del borrador de Estatutos, coherente con las decisiones registradas, jurídicamente apta para revisión constitutiva y sin comentarios abiertos de Fernando. Los comentarios abiertos de Gonzalo permanecen para discusión humana posterior.
+Producir una nueva iteración integral del borrador de Estatutos, partiendo de la revisión vigente de la pestaña `ESTATUTOS (JUNIO)` de Google Drive, coherente con las decisiones registradas, jurídicamente apta para revisión constitutiva y con todos los comentarios de Fernando procesados fundadamente. Los comentarios abiertos de Gonzalo permanecen para discusión humana posterior.
+
+## Regla de base material
+
+La pestaña `ESTATUTOS (JUNIO)` del Google Doc `1BYsJleZ3nFw3vypWR1mXxd4hs5AUQEzEuaCpZVWOjfU` es el texto de partida de cada corrección y de la futura D3.
+
+Los comentarios de Fernando son insumos obligatorios: deben identificarse, analizarse y resolverse fundadamente, aunque no aparezcan en GitHub. Los comentarios no se incorporan automáticamente; pueden acogerse, acogerse parcialmente, descartarse, quedar pendientes o reservarse, según su mérito jurídico y semántico.
+
+GitHub, el PR #5, el registro y los borradores D2 son referencias y mecanismos de trazabilidad. No sustituyen el texto vigente de Google Drive.
 
 ## Insumos obligatorios
 
-1. LEVANTAMIENTO_INTEGRAL_ESTATUTOS_JUNIO_2026-07-31.md.
-2. REGISTRO_DECISIONES.json, versión 0.3.0 o posterior.
-3. Pestaña ESTATUTOS (JUNIO), revisión indicada en el levantamiento o su revisión posterior leída nuevamente.
-4. ESTATUTOS_DISCUSION_D2_2026-07-29.md sólo como antecedente, no como fuente decisoria.
-5. Pestañas REGLAMENTO (JUNIO), ANEXOS (JUNIO), README (JUNIO) y REVISIONES GONZALO para el contraste de dependencias.
-6. Fuentes oficiales normativas vigentes al momento de cada iteración.
+1. Pestaña `ESTATUTOS (JUNIO)`, leída nuevamente en su revisión vigente, con `revisionId` y `tabId`.
+2. Comentarios de Fernando vinculados al texto, abiertos o resueltos cuando sean pertinentes para comprender la evolución; comentarios de Gonzalo identificados separadamente.
+3. LEVANTAMIENTO_INTEGRAL_ESTATUTOS_JUNIO_2026-07-31.md.
+4. MATRIZ_COMENTARIOS_ESTATUTOS_JUNIO_D2.md.
+5. REGISTRO_DECISIONES.json, versión 0.4.0 o posterior.
+6. Pestañas REGLAMENTO (JUNIO), ANEXOS (JUNIO), README (JUNIO) y REVISIONES GONZALO para el contraste de dependencias.
+7. Fuentes oficiales normativas vigentes al momento de cada iteración.
+8. ESTATUTOS_DISCUSION_D2_2026-07-29.md sólo como antecedente histórico, nunca como base automática.
 
 ## Estados de trabajo
 
@@ -102,14 +112,14 @@ Criterio de salida: decisiones expresas o placeholders conservados; nunca comple
 
 ### Fase 6 — Redacción D3
 
-1. Generar un archivo nuevo; no sobrescribir D2 ni el texto canónico.
+1. Generar un archivo nuevo desde una copia textual controlada de la revisión vigente de `ESTATUTOS (JUNIO)`; no partir de D2 ni sobrescribir Google Drive durante la deliberación.
 2. Encabezarlo como borrador de discusión, con fecha, fuentes y estado.
 3. No incluir notas pedagógicas, comentarios internos ni fuentes dentro del articulado.
 4. Mantener los placeholders visibles.
 5. No incluir datos personales en la versión pública.
 6. Preparar una versión privada de formalización sólo cuando exista autorización y datos completos.
 
-Criterio de salida: D3 completa, legible y sin contradicciones internas.
+Criterio de salida: D3 completa, legible y sin contradicciones internas, cuya procedencia desde la revisión de Google Drive esté registrada.
 
 ### Fase 7 — Armonización documental
 
