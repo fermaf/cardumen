@@ -10,7 +10,7 @@ Base: Google Doc PROPUESTA ONG, pestaña ESTATUTOS (JUNIO), revisionId `AIroW34s
 
 La Fundación tiene por objeto contribuir al interés general mediante la educación digital, las ciencias, la investigación aplicada, la innovación tecnológica, la transferencia de conocimiento y la cultura digital; el fortalecimiento de la autonomía tecnológica y la soberanía digital; la protección y promoción de los derechos y libertades fundamentales en entornos digitales, especialmente la privacidad, la protección de datos personales y la autodeterminación informativa; la gobernanza de datos y sistemas tecnológicos; la seguridad de la información y la integridad, auditabilidad y trazabilidad verificable de procesos, datos y decisiones; el desarrollo, evaluación y uso de sistemas de inteligencia artificial y agentes autónomos o semiautónomos, bajo dirección, supervisión y responsabilidad humana; y el desarrollo de capacidades públicas, comunitarias, académicas, sociales e institucionales para la comprensión, adopción y uso de tecnologías digitales.
 
-Para el cumplimiento de su objeto, la Fundación podrá desarrollar las actividades lícitas conducentes, complementarias o necesarias para sus fines, incluidas las actividades y medios previstos en el artículo sexto.
+Para el cumplimiento de su objeto, la Fundación podrá desarrollar las actividades conducentes, complementarias o necesarias para sus fines, incluidas las actividades y medios previstos en el artículo sexto.
 
 ## Justificación
 
@@ -27,3 +27,7 @@ Para el cumplimiento de su objeto, la Fundación podrá desarrollar las activida
 - El artículo quinto debe conservar sus fines adicionales, aunque se relacionen con el objeto general.
 - No se modifican ni cierran comentarios de Gonzalo.
 - La propuesta no autoriza modificación del Google Doc hasta una nueva aprobación humana.
+
+## Ajuste pendiente de aprobación
+
+Se elimina la palabra «lícitas» por redundancia semántica. La sujeción a la ley opera aunque no se reitere en esta cláusula.
