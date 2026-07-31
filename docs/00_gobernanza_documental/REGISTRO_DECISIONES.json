@@ -7,7 +7,7 @@
     "linea_base": "fermaf/cardumen@67f6d67d6621097d5747e3b8a22db2acdfe31001",
     "advertencia": "La recuperación de evidencia no sustituye la aprobación formal ni autoriza alteraciones por inferencia.",
     "fuente_recuperacion": "docs/00_gobernanza_documental/EVIDENCIA_RECUPERACION_2026-07-29.md",
-    "ultima_rectificacion": "OBJ-01: criterio de separación funcional, con preservación obligatoria de elementos sustantivos no redundantes, aprobado y aclarado el 2026-07-31."
+    "ultima_rectificacion": "OBJ-01: inventario de conservación completado; siguiente paso, propuesta D3 sin degradación informativa, 2026-07-31."
   },
   "decisiones": [
     {
@@ -434,9 +434,10 @@
         "GOB-13"
       ],
       "contradicciones": [],
-      "accion_siguiente": "Realizar un inventario de conservación y solapamientos en los artículos cuarto, quinto y sexto; después preparar una propuesta D3 de OBJ-01 que preserve los elementos sustantivos no redundantes y someterla a aprobación humana.",
+      "accion_siguiente": "Preparar una única propuesta D3 de consolidación jurídica de OBJ-01, preservando los elementos sustantivos identificados en el inventario y sometiendo el texto resultante a nueva aprobación humana.",
       "instruccion_agente": "No tratar esta decisión como texto jurídico final. No incorporar por inferencia el Manifiesto Criptoanarquista ni resolver los comentarios de Gonzalo.",
-      "aclaracion_humana": "La separación entre objeto, fines y actividades no autoriza eliminar elementos sustantivos que no sean redundantes. La consolidación debe preservar la calidad e integridad de la información; cuando exista solapamiento, corresponde reubicar, precisar o armonizar el contenido, eliminándolo sólo si es duplicación estricta o si existe fundamento jurídico y decisión humana expresa."
+      "aclaracion_humana": "La separación entre objeto, fines y actividades no autoriza eliminar elementos sustantivos que no sean redundantes. La consolidación debe preservar la calidad e integridad de la información; cuando exista solapamiento, corresponde reubicar, precisar o armonizar el contenido, eliminándolo sólo si es duplicación estricta o si existe fundamento jurídico y decisión humana expresa.",
+      "evidencia_inventario": "Inventario registrado en docs/01_borradores/FICHA_OBJ-01_INVENTARIO_CONSERVACION_2026-07-31.md, commit 11000d8654df3cfa13f4e98631e504dce19c0e87."
     }
   ]
 }
