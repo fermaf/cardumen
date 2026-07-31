@@ -24,11 +24,14 @@
 
 El texto actual no debe usarse aún como instrumento constitutivo. Mejoró sustancialmente objeto, patrimonio, órganos, donaciones y controles, pero contiene contradicciones con decisiones aprobadas, materias obligatorias incompletas, duplicaciones, exceso de detalle tecnológico y una distribución inestable entre Estatutos, Reglamento y políticas.
 
+## Evolución de criterio registrada durante el levantamiento
+
+El 31 de julio de 2026 se ratificó expresamente que el período ordinario de los directores será de **cinco años**. Esta decisión sustituye la referencia anterior de GOB-02 a períodos ordinarios de tres años. Se mantienen los períodos iniciales escalonados de 3, 4 y 5 años. Por tanto, los artículos 16 y 18 son correctos en este punto y no deben reducirse a tres años.
+
 ## Bloqueos y contradicciones de mayor prioridad
 
 | ID | Hallazgo | Efecto | Destino |
 |---|---|---|---|
-| EST-B01 | Los artículos 16 y 18 fijan períodos ordinarios de 5 años. GOB-02 aprobó 3 años, manteniendo 3/4/5 sólo para el Directorio inicial. | Contradicción decisoria directa. | Corregir en Estatutos. |
 | EST-B02 | Se permite reelección sin el límite aprobado. GOB-03 admite una reelección inmediata, computa el período inicial y permite retorno tras un período fuera. | Cambia el modelo de renovación. | Incorporar regla completa en Estatutos. |
 | EST-B03 | Vacancia, renuncia, remoción, descargos, reemplazo por período restante y continuidad máxima de 90 días están incompletos. | El Reglamento no puede suplir todo el núcleo de integración. | Consolidar GOB-02 a GOB-04 en Estatutos. |
 | EST-B04 | El artículo 19 atribuye el voto dirimente al Presidente titular y remite a una subrogancia no cerrada. GOB-05 y GOB-06 lo atribuyen a quien presida efectivamente y fijan una cascada. | Riesgo de empate y presidencia accidental indeterminada. | Regular íntegramente en Estatutos. |
@@ -64,7 +67,7 @@ El texto actual no debe usarse aún como instrumento constitutivo. Mejoró susta
 | Art. 13 | Fusionar con régimen de donaciones. No afirmar acceso automático a beneficios; depende de inscripción y cumplimiento. |
 | Art. 14 | Aclarar que administración y custodia recaen sobre activos propios de la Fundación o en proveedores contratados para ello; no sobre activos de terceros. Eliminar “grants” y detalle cambiante. |
 | Art. 15 | Mantener Directorio como órgano de administración, dirección superior y representación institucional; órganos auxiliares no vinculantes. |
-| Art. 16 | Corregir período ordinario a 3 años y aplicar límite de reelección de GOB-03. La diversidad es recomendación institucional, no requisito de validez. |
+| Art. 16 | Mantener período ordinario de 5 años conforme a la decisión expresa de 2026-07-31 y aplicar el límite de reelección de GOB-03. La diversidad es recomendación institucional, no requisito de validez. |
 | Art. 17 | Mantener gratuidad y servicios distintos, conforme al artículo 551-1. Coordinar con conflictos y contratación para evitar triplicación. |
 | Art. 18 | Incorporar íntegramente designación, renuncia, remoción, vacancia, reemplazo, ampliación y continuidad de GOB-02 a GOB-04. |
 | Art. 19 | Incorporar GOB-05 a GOB-07: presidencia efectiva, cascada, dos directores sólo para continuidad urgente, sesiones y catálogo de 2/3. |
