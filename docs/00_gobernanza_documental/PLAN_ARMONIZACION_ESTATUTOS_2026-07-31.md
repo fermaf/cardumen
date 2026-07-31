@@ -39,7 +39,7 @@ Criterio de salida: línea base inequívoca y diferencias nuevas clasificadas.
 
 1. ID-03: domicilio en Providencia.
 2. PAT-01: $1.200.000, tres aportes de $400.000, enterados al constituir.
-3. GOB-01 a GOB-04: composición, períodos 3/4/5 iniciales, 3 años ordinarios, reelección, remoción y vacancias.
+3. GOB-01 a GOB-04: composición, períodos 3/4/5 iniciales, 5 años ordinarios conforme a la rectificación expresa de 2026-07-31, reelección, remoción y vacancias.
 4. GOB-05 a GOB-07: presidencia efectiva, cascada, continuidad urgente, sesiones, quórums y materias de 2/3.
 5. GOB-08 a GOB-12: conflictos, transparencia, patrimonio, donaciones, operaciones relacionadas, contratación y compras.
 6. GOB-13: Agents First, Human Governed, con autorización y responsabilidad humanas.
@@ -160,7 +160,7 @@ Después de aprobación humana de D3:
 ## Prohibiciones para el siguiente agente
 
 - No presentar membresía con voto como opción dentro de una fundación.
-- No alterar períodos, quórums o reelección ya aprobados.
+- No reducir a tres años el período ordinario: la decisión vigente es de cinco años; mantener períodos iniciales 3/4/5, quórums y reelección ya aprobados.
 - No confundir activos propios con servicios de custodia a terceros.
 - No insertar tratamientos tributarios generales sin verificar la operación.
 - No convertir recomendaciones o comentarios en obligaciones automáticas.
