@@ -1,12 +1,13 @@
 {
   "metadatos": {
     "proyecto": "Cardumen — fase constituyente",
-    "version_registro": "0.3.0",
-    "fecha_corte": "2026-07-29",
+    "version_registro": "0.4.0",
+    "fecha_corte": "2026-07-31",
     "estado": "borrador_publico_sujeto_a_ratificacion",
     "linea_base": "fermaf/cardumen@67f6d67d6621097d5747e3b8a22db2acdfe31001",
     "advertencia": "La recuperación de evidencia no sustituye la aprobación formal ni autoriza alteraciones por inferencia.",
-    "fuente_recuperacion": "docs/00_gobernanza_documental/EVIDENCIA_RECUPERACION_2026-07-29.md"
+    "fuente_recuperacion": "docs/00_gobernanza_documental/EVIDENCIA_RECUPERACION_2026-07-29.md",
+    "ultima_rectificacion": "GOB-02: período ordinario de cinco años, decisión humana expresa de 2026-07-31."
   },
   "decisiones": [
     {
@@ -151,20 +152,21 @@
       "estado_decisorio": "aprobada_consolidacion_pendiente",
       "integridad": "completa",
       "clasificacion": "publico",
-      "decision": "Los períodos iniciales excepcionales serán de 3, 4 y 5 años; los ordinarios posteriores, de 3 años. Los reemplazos completan el período restante, con continuidad excepcional máxima de 90 días si no hay sucesor.",
-      "fecha": "2026-07-29",
+      "decision": "Los períodos iniciales excepcionales serán de 3, 4 y 5 años; los períodos ordinarios posteriores serán de 5 años. Los reemplazos completan el período restante, con continuidad excepcional máxima de 90 días si no hay sucesor.",
+      "fecha": "2026-07-31",
       "fuentes": [
         "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-02, referencias internas 126–128.",
-        "PR #5, comentario #issuecomment-5123717615."
+        "PR #5, comentario #issuecomment-5123717615.",
+        "Rectificación humana expresa durante el levantamiento integral de ESTATUTOS (JUNIO), 2026-07-31."
       ],
-      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 126–128.",
+      "evidencia_aprobacion": "La evidencia de 2026-07-29 fijó el escalonamiento inicial; el 2026-07-31 se sustituyó expresamente el período ordinario anterior por cinco años.",
       "destinos": [
         "Estatutos, duración y renovación",
         "Disposición transitoria"
       ],
       "dependencias": [],
       "contradicciones": [],
-      "accion_siguiente": "Consolidar el escalonamiento y sus reglas de transición.",
+      "accion_siguiente": "Consolidar períodos iniciales 3/4/5 y período ordinario de cinco años, junto con las reglas de transición.",
       "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
     },
     {
