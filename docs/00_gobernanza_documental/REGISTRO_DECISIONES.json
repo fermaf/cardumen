@@ -1,13 +1,13 @@
 {
   "metadatos": {
     "proyecto": "Cardumen — fase constituyente",
-    "version_registro": "0.4.0",
+    "version_registro": "0.5.0",
     "fecha_corte": "2026-07-31",
     "estado": "borrador_publico_sujeto_a_ratificacion",
     "linea_base": "fermaf/cardumen@67f6d67d6621097d5747e3b8a22db2acdfe31001",
     "advertencia": "La recuperación de evidencia no sustituye la aprobación formal ni autoriza alteraciones por inferencia.",
     "fuente_recuperacion": "docs/00_gobernanza_documental/EVIDENCIA_RECUPERACION_2026-07-29.md",
-    "ultima_rectificacion": "GOB-02: período ordinario de cinco años, decisión humana expresa de 2026-07-31."
+    "ultima_rectificacion": "OBJ-01: criterio de separación entre objeto, fines y actividades, aprobado con consolidación pendiente el 2026-07-31."
   },
   "decisiones": [
     {
@@ -410,6 +410,32 @@
       "contradicciones": [],
       "accion_siguiente": "Traducir el principio a reglas, política y matriz de autorizaciones.",
       "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "OBJ-01",
+      "titulo": "Artículo Cuarto: objeto general",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "parcial",
+      "clasificacion": "publico",
+      "decision": "Se aprueba como criterio de consolidación que el artículo cuarto contenga únicamente el objeto general y estable, el artículo quinto los fines específicos de interés general y el artículo sexto las actividades y medios de ejecución. Se mantiene como materia fundacional la inteligencia artificial y los agentes autónomos o semiautónomos bajo dirección, supervisión y responsabilidad humanas; sus reglas operativas se desarrollarán en el Reglamento o en políticas. Se mantiene pendiente la decisión específica sobre el uso estatutario de los conceptos autonomía tecnológica y soberanía digital.",
+      "fecha": "2026-07-31",
+      "fuentes": [
+        "Pestaña ESTATUTOS (JUNIO) del Google Doc PROPUESTA ONG, revisionId AIroW34sdns82xtrQjOuCMdL8HRPIQ9VdQlkAhy2-ttdm6gcwXDlM8HmOj-ciIxqMz91nL0_2HQHpSDy42A6SY09sYpVZgrcJ38f3_vom0o, tabId t.v0xtswn6rj85.",
+        "Comentarios de Fernando AAACBsrwC0A, AAACEk40uxs y AAACEk40jcU.",
+        "PROTOCOLO_EJECUCION_GUIADA_MODELO_LIGERO.md y Ficha de corrección OBJ-01."
+      ],
+      "evidencia_aprobacion": "Aprobación humana inequívoca mediante respuesta 'si' posterior a la pregunta única de la ficha OBJ-01, 2026-07-31.",
+      "destinos": [
+        "Estatutos, artículos cuarto, quinto y sexto",
+        "Reglamento o políticas de gobernanza de inteligencia artificial y agentes",
+        "Matriz de comentarios"
+      ],
+      "dependencias": [
+        "GOB-13"
+      ],
+      "contradicciones": [],
+      "accion_siguiente": "Preparar una única propuesta de consolidación jurídica de OBJ-01, sin modificar todavía el Google Doc ni cerrar comentarios; someter el texto resultante a nueva aprobación humana antes de iniciar otra unidad.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final. No incorporar por inferencia el Manifiesto Criptoanarquista ni resolver los comentarios de Gonzalo."
     }
   ]
 }
