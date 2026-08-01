@@ -1,3 +1,5 @@
+> **SUPERSEDIDA — NO UTILIZAR.** Esta propuesta omitió por error el tercer párrafo tecnológico existente en la revisión vigente de Google Drive. Se conserva únicamente como registro histórico del error y fue reemplazada por la propuesta corregida.
+
 # OBJ-01 — Propuesta D3 del Artículo Cuarto
 
 Estado: propuesta no aprobada.
