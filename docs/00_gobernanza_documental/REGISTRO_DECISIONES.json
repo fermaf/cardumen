@@ -7,7 +7,7 @@
     "linea_base": "fermaf/cardumen@67f6d67d6621097d5747e3b8a22db2acdfe31001",
     "advertencia": "La recuperación de evidencia no sustituye la aprobación formal ni autoriza alteraciones por inferencia.",
     "fuente_recuperacion": "docs/00_gobernanza_documental/EVIDENCIA_RECUPERACION_2026-07-29.md",
-    "ultima_rectificacion": "OBJ-01: D3 aprobada con conservación coordinada de actividades en artículo sexto; 2026-07-31."
+    "ultima_rectificacion": "OBJ-01: propuesta D3 anterior retirada por error de fuente; propuesta corregida conserva el tercer párrafo tecnológico, 2026-07-31."
   },
   "decisiones": [
     {
@@ -415,7 +415,7 @@
       "id": "OBJ-01",
       "titulo": "Artículo Cuarto: objeto general",
       "estado_decisorio": "aprobada_consolidacion_pendiente",
-      "integridad": "completa",
+      "integridad": "parcial",
       "clasificacion": "publico",
       "decision": "Se aprueba como criterio de consolidación que el artículo cuarto contenga únicamente el objeto general y estable, el artículo quinto los fines específicos de interés general y el artículo sexto las actividades y medios de ejecución. Se mantiene como materia fundacional la inteligencia artificial y los agentes autónomos o semiautónomos bajo dirección, supervisión y responsabilidad humanas; sus reglas operativas se desarrollarán en el Reglamento o en políticas. Se mantiene pendiente la decisión específica sobre el uso estatutario de los conceptos autonomía tecnológica y soberanía digital.",
       "fecha": "2026-07-31",
@@ -434,11 +434,13 @@
         "GOB-13"
       ],
       "contradicciones": [],
-      "accion_siguiente": "Realizar la consolidación coordinada de los artículos cuarto y sexto, preservando en el artículo sexto la enumeración detallada de actividades; no modificar el Google Doc hasta contar con la versión coordinada y su aprobación de implementación.",
+      "accion_siguiente": "Revisar humanamente la propuesta D3 corregida, que conserva los tres párrafos vigentes, antes de registrar aprobación de texto o modificar Google Drive.",
       "instruccion_agente": "No tratar esta decisión como texto jurídico final. No incorporar por inferencia el Manifiesto Criptoanarquista ni resolver los comentarios de Gonzalo.",
       "aclaracion_humana": "La separación entre objeto, fines y actividades no autoriza eliminar elementos sustantivos que no sean redundantes. La consolidación debe preservar la calidad e integridad de la información; cuando exista solapamiento, corresponde reubicar, precisar o armonizar el contenido, eliminándolo sólo si es duplicación estricta o si existe fundamento jurídico y decisión humana expresa.",
       "evidencia_inventario": "Inventario registrado en docs/01_borradores/FICHA_OBJ-01_INVENTARIO_CONSERVACION_2026-07-31.md, commit 11000d8654df3cfa13f4e98631e504dce19c0e87.",
-      "aprobacion_d3": "Aprobación humana comunicada mediante 'continúa' después del ajuste que eliminó el término redundante «lícitas», manteniendo la propuesta D3 y la conservación de las actividades en el artículo sexto; 2026-07-31."
+      "aprobacion_d3": "La aprobación registrada de la propuesta anterior queda sin efecto como registro de texto, porque dicha propuesta omitió por error el tercer párrafo tecnológico vigente en Drive. No se considera aprobada ninguna redacción que lo omita.",
+      "rectificacion_fuente": "Rectificación del agente de 2026-07-31: el artículo cuarto vigente contiene tres párrafos, incluido el párrafo sobre criptografía, identidad digital, credenciales verificables, registros distribuidos, contratos inteligentes, reputación y confianza digital, inteligencia artificial, ciberseguridad, privacidad desde el diseño, transparencia, interoperabilidad, documentación abierta y transformación digital.",
+      "evidencia_rectificacion": "La fuente fue releída directamente con revisionId AIroW34sdns82xtrQjOuCMdL8HRPIQ9VdQlkAhy2-ttdm6gcwXDlM8HmOj-ciIxqMz91nL0_2HQHpSDy42A6SY09sYpVZgrcJ38f3_vom0o y tabId t.v0xtswn6rj85. Propuesta corregida: docs/01_borradores/PROPUESTA_D3_OBJ-01_ARTICULO_CUARTO_CORREGIDA_2026-07-31.md, commit 43f0fa6097d5615e9f371943af9f264fd2f3bf3d."
     }
   ]
 }
