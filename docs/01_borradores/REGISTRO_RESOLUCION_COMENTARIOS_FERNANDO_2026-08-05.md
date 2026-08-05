@@ -19,7 +19,8 @@ Fecha de inicio: 5 de agosto de 2026.
 | COM-F14 — Párrafo del Artículo Tercero Transitorio | APROBADO | Pendiente | Abierto |
 | COM-F05 — Derechos de colaboradores | APROBADO | Pendiente | Abierto |
 | COM-F07 — Representación, contratación, delegación y redelegación | APROBADO | Pendiente | Abierto |
-| COM-F08 a COM-F13 y COM-F15 a COM-F17 | Pendientes de revisión secuencial | Pendiente | Abiertos |
+| COM-F08 — Subrogancia | APROBADO | Pendiente | Abierto |
+| COM-F09 a COM-F13 y COM-F15 a COM-F17 | Pendientes de revisión secuencial | Pendiente | Abiertos |
 
 ## COM-F01 — Instrumentos que no requieren reforma
 
@@ -142,6 +143,39 @@ Fecha de inicio: 5 de agosto de 2026.
   - La delegación no libera al Directorio de sus deberes de dirección, supervisión y control ni puede comprender atribuciones indelegables o alterar competencias reservadas por la ley o los Estatutos.
   - El artículo 24 conservará la representación judicial y extrajudicial del Presidente, coordinada con los acuerdos y poderes vigentes.
   - El artículo 27 limitará la administración ejecutiva al ejercicio de las facultades efectivamente delegadas, dentro de los límites, políticas y controles aprobados.
+- Estado material: pendiente de incorporación en D3.
+- Estado en Drive: el comentario permanece abierto hasta completar la consolidación y la respuesta armonizada del documento.
+
+
+## COM-F08 — Subrogancia de la Presidencia
+
+- Decisión humana: **APROBADO** el 5 de agosto de 2026.
+- Decisión relacionada: **GOB-06 — Presidencia accidental y continuidad urgente**.
+- Artículos estatutarios afectados: **Vigésimo Quinto**, con coordinación con los artículos **Décimo Octavo**, **Décimo Noveno**, **Vigésimo Cuarto** y **Vigésimo Sexto**.
+- Evaluación: comentario pertinente. La subrogancia debe quedar regulada en los Estatutos y no puede quedar entregada al Reglamento ni exigir la existencia de un cargo de Vicepresidente que la Fundación podría no tener.
+- Criterio aprobado para D3:
+  - El cargo de Vicepresidente será facultativo; su inexistencia o falta de provisión no afectará la validez ni el funcionamiento de la Fundación.
+  - En caso de ausencia, impedimento o inhabilidad temporal del Presidente, lo subrogará el Vicepresidente cuando exista y se encuentre provisto.
+  - Si no existiere Vicepresidente, o éste no pudiere ejercer la subrogancia, asumirá el director con mayor antigüedad continua en el Directorio; en caso de igualdad, el de mayor edad.
+  - En caso de vacancia definitiva, el Vicepresidente, cuando exista y pueda ejercer el cargo, o quien corresponda conforme a la regla anterior, ejercerá interinamente la Presidencia hasta la designación de un nuevo Presidente.
+  - Durante la subrogancia, el subrogante ejercerá las facultades, deberes y atribuciones de la Presidencia, incluida la representación judicial y extrajudicial, la presidencia de las sesiones y el voto dirimente en caso de empate, con sujeción a la ley, los Estatutos, los acuerdos del Directorio y los poderes vigentes.
+  - La subrogancia no modificará las competencias reservadas al Directorio ni permitirá alterar los Estatutos, salvo actuaciones urgentes indispensables para asegurar la continuidad jurídica y operativa.
+- Texto aprobado para D3:
+
+> **Artículo Vigésimo Quinto — Vicepresidencia y subrogancia de la Presidencia.**
+>
+> El cargo de Vicepresidente será facultativo. El Directorio podrá establecerlo y proveerlo cuando lo estime conveniente, de acuerdo con las necesidades y composición de la Fundación. Su inexistencia o falta de provisión no afectará la validez ni el funcionamiento de la Fundación.
+>
+> En caso de ausencia, impedimento o inhabilidad temporal del Presidente, lo subrogará el Vicepresidente, cuando dicho cargo exista y se encuentre provisto.
+>
+> Si no existiere Vicepresidente, o éste no pudiere ejercer la subrogancia, asumirá el director con mayor antigüedad continua en el Directorio. En caso de igualdad, subrogará el director de mayor edad.
+>
+> En caso de vacancia definitiva de la Presidencia, el Vicepresidente, cuando exista y pueda ejercer el cargo, o quien corresponda conforme al inciso anterior, ejercerá interinamente la Presidencia hasta que el Directorio designe un nuevo Presidente.
+>
+> Durante la subrogancia, el subrogante ejercerá las facultades, deberes y atribuciones propias de la Presidencia, incluida la representación judicial y extrajudicial de la Fundación, la presidencia de las sesiones del Directorio y el voto dirimente en caso de empate, con sujeción a la ley, estos estatutos, los acuerdos del Directorio y los poderes vigentes.
+>
+> La subrogancia no modificará las competencias reservadas al Directorio ni permitirá alterar estos estatutos, salvo las actuaciones urgentes indispensables para asegurar la continuidad jurídica y operativa de la Fundación.
+
 - Estado material: pendiente de incorporación en D3.
 - Estado en Drive: el comentario permanece abierto hasta completar la consolidación y la respuesta armonizada del documento.
 
