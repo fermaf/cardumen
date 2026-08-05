@@ -60,7 +60,28 @@ Fecha de inicio: 5 de agosto de 2026.
 - Estado material: pendiente de incorporación en D3.
 - Estado en Drive: no respondido ni resuelto, conforme al plan que posterga el cierre hasta completar la revisión jurídica y de coherencia de D3.
 
-## COM-F04 a COM-F17
+## COM-F04 — Aportes posteriores
+
+- Decisión humana: **APROBADO** el 5 de agosto de 2026.
+- Artículos estatutarios afectados:
+  1. **Artículo Noveno — Etapa inicial, trabajo fundador y aportes posteriores.**
+  2. **Artículo Octavo — Patrimonio inicial**, para distinguirlo de las contribuciones posteriores.
+  3. **Artículo Décimo — Integración posterior del patrimonio**, como régimen patrimonial posterior.
+  4. **Artículo Tercero Transitorio — Aporte inicial**, por la duplicación o tensión generada por su segundo párrafo.
+- Evaluación: el comentario es pertinente. La expresión “aportes fundacionales” posteriores es equívoca y no debe convertir el trabajo, la colaboración o la puesta a disposición de recursos en patrimonio inicial.
+- Criterio aprobado para D3: conservar el contenido institucional del Artículo Noveno y sustituir sólo su último párrafo por:
+
+> Con posterioridad a la constitución, los fundadores y terceros podrán contribuir al desarrollo de la Fundación mediante la entrega o puesta a disposición de bienes, derechos, conocimientos, herramientas, documentación, software, metodologías u otros recursos relacionados con el objeto fundacional. Cuando corresponda, su incorporación al patrimonio se regirá por el artículo Décimo y por el título jurídico respectivo. El trabajo, la colaboración o el uso de bienes que no implique transferencia patrimonial se documentará conforme a su naturaleza.
+
+- Efectos:
+  - No se altera el patrimonio inicial aprobado en **PAT-01**: $1.200.000, íntegramente dinerario, mediante tres aportes de $400.000, enterados al constituirse.
+  - No se transforma el Artículo Noveno en una enumeración de facultades ya reguladas en otras disposiciones.
+  - Las licencias, comodatos, autorizaciones de uso y colaboraciones sin transferencia patrimonial no se presentan como aportes al patrimonio.
+- Estado material: pendiente de incorporación en D3.
+- Estado en Drive: el comentario permanece abierto hasta completar la revisión y la incorporación armonizada.
+- Relación con COM-F14: queda pendiente resolver el segundo párrafo del Artículo Tercero Transitorio. La propuesta de armonización es eliminarlo íntegramente, porque el primer párrafo ya acredita el entero del patrimonio inicial y los Artículos Noveno y Décimo regulan las contribuciones y adquisiciones posteriores. No se propone sustituirlo por otro texto.
+
+## COM-F05 a COM-F17
 
 Pendientes de revisión secuencial.
 
