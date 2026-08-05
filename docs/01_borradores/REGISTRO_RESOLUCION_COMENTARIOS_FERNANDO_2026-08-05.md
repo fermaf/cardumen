@@ -18,7 +18,7 @@ Fecha de inicio: 5 de agosto de 2026.
 | COM-F04 — Aportes posteriores | APROBADO | Pendiente | Abierto |
 | COM-F14 — Párrafo del Artículo Tercero Transitorio | APROBADO | Pendiente | Abierto |
 | COM-F05 — Derechos de colaboradores | APROBADO | Pendiente | Abierto |
-| COM-F06 a COM-F13 y COM-F15 a COM-F17 | Pendientes de revisión secuencial | Pendiente | Abiertos |
+| COM-F07 a COM-F13 y COM-F15 a COM-F17 | Pendientes de revisión secuencial | Pendiente | Abiertos |
 
 ## COM-F01 — Instrumentos que no requieren reforma
 
@@ -96,6 +96,36 @@ Fecha de inicio: 5 de agosto de 2026.
 - Fundamento externo: artículo 551-1 del Código Civil, en cuanto distingue las funciones directivas de los servicios distintos que pueden ser remunerados y sujetos a rendición.
 - Estado material: pendiente de incorporación en D3.
 - Estado en Drive: no respondido ni resuelto, conforme al plan que posterga el cierre hasta completar la revisión jurídica y de coherencia de D3.
+
+## COM-F06 — Facultades de administración
+
+- Decisión humana: **APROBADO** el 5 de agosto de 2026.
+- Comentario de Drive: **AAACElCSL3Q**.
+- Artículos estatutarios afectados: **Vigésimo Primero**, **Vigésimo Segundo**, **Vigésimo Cuarto** y **Vigésimo Séptimo**.
+- Evaluación: el comentario es plenamente pertinente. El artículo Vigésimo Segundo debía completar las facultades inherentes a la administración superior y a la gestión ordinaria y diaria, incluyendo la contratación de administradores y la delegación de tareas, funciones y facultades determinadas, bajo dirección, supervisión y responsabilidad institucional del Directorio.
+- Criterio aprobado: el artículo 22 debe contener un catálogo general, amplio y no taxativo de facultades de administración, inspirado en la estructura usual de poderes generales utilizada en Chile, pero adaptado a una fundación y coordinado con la representación legal del artículo 24.
+- La enumeración debe cubrir, entre otras materias:
+  - administración superior y gestión diaria;
+  - creación y organización de unidades, programas, oficinas y cargos;
+  - contratación, remuneración, instrucción, supervisión y remoción de administradores, directores ejecutivos, gerentes, coordinadores, trabajadores, prestadores, asesores y proveedores;
+  - delegación, mandatos y poderes, con alcance, vigencia, actuación individual o conjunta, límites, controles, reportes, rendición y revocación;
+  - adquisición, disposición, gravamen, arrendamiento, comodato, licenciamiento, garantías, seguros, cobros, pagos, finiquitos, transacciones y demás actos patrimoniales;
+  - celebración, modificación, ejecución y terminación de contratos y convenios civiles, comerciales, tecnológicos, laborales y administrativos;
+  - apertura, contratación, mantención, modificación y cierre de cuentas corrientes, de depósito, ahorro, pago, crédito y otros instrumentos de administración de recursos;
+  - banca electrónica, tarjetas, medios de pago, transferencias, depósitos, retiros, inversiones, custodia de valores, créditos, mutuos, líneas de crédito, sobregiros, boletas de garantía, documentos bancarios y operaciones de cambio permitidas por la ley;
+  - comparecencia y actuaciones ante personas públicas y privadas, autoridades, bancos, organismos tributarios, laborales, previsionales y reguladores;
+  - solicitudes, declaraciones, formularios, rendiciones, inscripciones, registros, permisos, autorizaciones, certificados, licencias y demás trámites;
+  - contratación y término de relaciones laborales o de prestación de servicios, remuneraciones, honorarios, finiquitos y actuación ante autoridades laborales y previsionales;
+  - software, marcas, dominios, obras, bases de datos, metodologías, modelos, documentación, patentes, diseños y demás activos intelectuales o digitales;
+  - activos digitales propios de la Fundación, mediante operaciones compatibles con el objeto y sujetas a políticas, controles, registros y autorizaciones internas;
+  - mandatos judiciales, abogados, procuradores, árbitros, peritos, liquidadores, acciones, defensas, avenimientos, conciliaciones, transacciones, cobros y finiquitos;
+  - participación compatible en personas jurídicas sin fines de lucro, redes, alianzas, consorcios y programas conjuntos; y
+  - una cláusula general de cierre para los actos lícitos necesarios, útiles o convenientes para la administración y los fines fundacionales.
+- Límite aprobado: la delegación no libera al Directorio de sus deberes de dirección, supervisión y control, ni puede comprender atribuciones indelegables o alterar competencias reservadas por la ley o los Estatutos. La responsabilidad individual de quien ejerza la función delegada se mantiene.
+- Límite regulatorio: la facultad de operar con activos digitales se refiere a activos propios de la Fundación y no autoriza la custodia, intermediación, administración o prestación habitual de servicios financieros respecto de activos de terceros sin las autorizaciones legales correspondientes.
+- Coordinación: el artículo 24 conservará la representación judicial y extrajudicial; el artículo 21, las atribuciones superiores y materias reservadas; el artículo 27, el ejercicio de facultades delegadas por la administración ejecutiva.
+- Estado material: pendiente de incorporación en D3.
+- Estado en Drive: el comentario permanece abierto hasta completar la revisión y la incorporación armonizada.
 
 ## COM-F14 — Párrafo del Artículo Tercero Transitorio
 
