@@ -18,7 +18,8 @@ Fecha de inicio: 5 de agosto de 2026.
 | COM-F04 — Aportes posteriores | APROBADO | Pendiente | Abierto |
 | COM-F14 — Párrafo del Artículo Tercero Transitorio | APROBADO | Pendiente | Abierto |
 | COM-F05 — Derechos de colaboradores | APROBADO | Pendiente | Abierto |
-| COM-F07 a COM-F13 y COM-F15 a COM-F17 | Pendientes de revisión secuencial | Pendiente | Abiertos |
+| COM-F07 — Representación, contratación, delegación y redelegación | APROBADO | Pendiente | Abierto |
+| COM-F08 a COM-F13 y COM-F15 a COM-F17 | Pendientes de revisión secuencial | Pendiente | Abiertos |
 
 ## COM-F01 — Instrumentos que no requieren reforma
 
@@ -126,6 +127,24 @@ Fecha de inicio: 5 de agosto de 2026.
 - Coordinación: el artículo 24 conservará la representación judicial y extrajudicial; el artículo 21, las atribuciones superiores y materias reservadas; el artículo 27, el ejercicio de facultades delegadas por la administración ejecutiva.
 - Estado material: pendiente de incorporación en D3.
 - Estado en Drive: el comentario permanece abierto hasta completar la revisión y la incorporación armonizada.
+
+## COM-F07 — Representación, contratación, delegación y redelegación
+
+- Decisión humana: **APROBADO** el 5 de agosto de 2026.
+- Comentario de Drive: **AAACElCSL3M**.
+- Artículos estatutarios afectados: **Vigésimo Primero**, **Vigésimo Segundo**, **Vigésimo Cuarto** y **Vigésimo Séptimo**.
+- Evaluación: el comentario es parcialmente pertinente. Las facultades materiales ya existen o fueron ampliadas en COM-F06, pero la arquitectura de representación, contratación, delegación y redelegación estaba dispersa y debía delimitarse expresamente.
+- Criterio aprobado para D3:
+  - El Directorio conserva la administración superior, aprueba la estructura general de poderes y fija materias reservadas, límites, controles, actuación individual o conjunta y rendición de cuentas.
+  - La delegación operativa no confiere por sí sola representación legal ni facultad para obligar a la Fundación frente a terceros; para ello se requiere el mandato o poder correspondiente.
+  - Todo mandato o poder deberá indicar, cuando corresponda, alcance, vigencia, forma de actuación, límites, materias reservadas, deberes de información y mecanismos de rendición.
+  - La redelegación o sustitución sólo procederá cuando haya sido autorizada expresamente por el Directorio o por el instrumento que otorgue el poder.
+  - La delegación no libera al Directorio de sus deberes de dirección, supervisión y control ni puede comprender atribuciones indelegables o alterar competencias reservadas por la ley o los Estatutos.
+  - El artículo 24 conservará la representación judicial y extrajudicial del Presidente, coordinada con los acuerdos y poderes vigentes.
+  - El artículo 27 limitará la administración ejecutiva al ejercicio de las facultades efectivamente delegadas, dentro de los límites, políticas y controles aprobados.
+- Estado material: pendiente de incorporación en D3.
+- Estado en Drive: el comentario permanece abierto hasta completar la consolidación y la respuesta armonizada del documento.
+
 
 ## COM-F14 — Párrafo del Artículo Tercero Transitorio
 
