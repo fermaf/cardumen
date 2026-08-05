@@ -20,7 +20,8 @@ Fecha de inicio: 5 de agosto de 2026.
 | COM-F05 — Derechos de colaboradores | APROBADO | Pendiente | Abierto |
 | COM-F07 — Representación, contratación, delegación y redelegación | APROBADO | Pendiente | Abierto |
 | COM-F08 — Subrogancia | APROBADO | Pendiente | Abierto |
-| COM-F09 a COM-F13 y COM-F15 a COM-F17 | Pendientes de revisión secuencial | Pendiente | Abiertos |
+| COM-F09 — Tecnologías como medios instrumentales | APROBADO | Pendiente | Abierto |
+| COM-F10 a COM-F13 y COM-F15 a COM-F17 | Pendientes de revisión secuencial | Pendiente | Abiertos |
 
 ## COM-F01 — Instrumentos que no requieren reforma
 
@@ -180,6 +181,33 @@ Fecha de inicio: 5 de agosto de 2026.
 - Estado en Drive: el comentario permanece abierto hasta completar la consolidación y la respuesta armonizada del documento.
 
 
+## COM-F09 — Tecnologías como medios instrumentales
+
+- Decisión humana: **APROBADO** el 5 de agosto de 2026.
+- Comentario de Drive: **AAACEk40uxs**.
+- Artículo estatutario afectado: **Artículo Séptimo — Tecnologías como medios instrumentales**.
+- Evaluación: comentario pertinente. La redacción debía reducir la exposición a terminología cripto y armonizarla con el vocabulario de inteligencia artificial, sin eliminar el carácter instrumental de las tecnologías ni impedir su uso institucional.
+- Criterio aprobado para D3:
+  - Las tecnologías digitales, los sistemas de información, los activos digitales y demás tecnologías emergentes tendrán carácter instrumental respecto de los fines de interés general y no constituirán un fin autónomo.
+  - La Fundación podrá utilizar, desarrollar, investigar, adquirir, administrar o promover estas tecnologías, incluidos sistemas de inteligencia artificial, agentes autónomos o semiautónomos, redes descentralizadas, mecanismos de trazabilidad, activos digitales y otras tecnologías equivalentes, en conexión con su objeto y bajo los controles institucionales aprobados.
+  - La Fundación no desarrollará actividades de intermediación financiera ni prestará servicios de custodia, administración, intermediación o gestión respecto de activos o recursos de terceros. Las operaciones que realice con activos digitales se limitarán a activos propios y deberán estar vinculadas a sus fines fundacionales.
+  - Los aspectos técnicos y operativos se desarrollarán en el Reglamento Interno, políticas institucionales y acuerdos del Directorio.
+- Texto aprobado para D3:
+
+> **Artículo Séptimo — Tecnologías como medios instrumentales.**
+>
+> Las tecnologías digitales, los sistemas de información, los activos digitales y demás tecnologías emergentes que la Fundación utilice, desarrolle, estudie o promueva tendrán carácter instrumental respecto de sus fines de interés general y no constituirán un fin autónomo de la Fundación.
+>
+> La Fundación podrá utilizar, desarrollar, investigar, adquirir, administrar o promover dichas tecnologías, incluidos sistemas de inteligencia artificial, agentes autónomos o semiautónomos, redes descentralizadas, mecanismos de trazabilidad, activos digitales y otras tecnologías equivalentes, siempre que ello sea compatible con su objeto, la normativa aplicable, los derechos fundamentales y los controles institucionales aprobados.
+>
+> La Fundación no desarrollará actividades de intermediación financiera ni prestará servicios de custodia, administración, intermediación o gestión respecto de activos o recursos de terceros. Las operaciones que realice con activos digitales se limitarán a activos propios y deberán estar vinculadas a sus fines fundacionales.
+>
+> Los aspectos técnicos y operativos relativos a estas tecnologías, incluidos su infraestructura, proveedores, autorizaciones, límites, seguridad, privacidad, trazabilidad y gestión de riesgos, se regularán mediante el Reglamento Interno, políticas institucionales y acuerdos del Directorio.
+
+- Estado material: pendiente de incorporación en D3.
+- Estado en Drive: el comentario permanece abierto hasta completar la consolidación y la respuesta armonizada del documento.
+
+
 ## COM-F14 — Párrafo del Artículo Tercero Transitorio
 
 - Decisión humana: **APROBADO** el 5 de agosto de 2026.
@@ -198,7 +226,7 @@ Fecha de inicio: 5 de agosto de 2026.
 - Estado material: pendiente de incorporación en D3.
 - Estado en Drive: no respondido ni resuelto, conforme al plan que posterga el cierre hasta completar la revisión jurídica y de coherencia de D3.
 
-## COM-F05 a COM-F13 y COM-F15 a COM-F17
+## COM-F10 a COM-F13 y COM-F15 a COM-F17
 
 Pendientes de revisión secuencial.
 
