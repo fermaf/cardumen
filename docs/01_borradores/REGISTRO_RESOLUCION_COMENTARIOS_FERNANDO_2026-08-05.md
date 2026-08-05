@@ -14,7 +14,10 @@ Fecha de inicio: 5 de agosto de 2026.
 |---|---|---|---|
 | COM-F01 — Instrumentos que no requieren reforma | APROBADO | Pendiente | Abierto |
 | COM-F02 — Beneficiarios | APROBADO | Pendiente | Abierto |
-| COM-F03 — Transparencia, memoria y balance | APROBADO | Pendiente | Abierto || COM-F04 a COM-F17 | Pendiente de revisión secuencial | Pendiente | Abiertos |
+| COM-F03 — Transparencia, memoria y balance | APROBADO | Pendiente | Abierto |
+| COM-F04 — Aportes posteriores | APROBADO | Pendiente | Abierto |
+| COM-F14 — Párrafo del Artículo Tercero Transitorio | APROBADO | Pendiente | Abierto |
+| COM-F05 a COM-F13 y COM-F15 a COM-F17 | Pendientes de revisión secuencial | Pendiente | Abiertos |
 
 ## COM-F01 — Instrumentos que no requieren reforma
 
@@ -79,9 +82,25 @@ Fecha de inicio: 5 de agosto de 2026.
   - Las licencias, comodatos, autorizaciones de uso y colaboraciones sin transferencia patrimonial no se presentan como aportes al patrimonio.
 - Estado material: pendiente de incorporación en D3.
 - Estado en Drive: el comentario permanece abierto hasta completar la revisión y la incorporación armonizada.
-- Relación con COM-F14: queda pendiente resolver el segundo párrafo del Artículo Tercero Transitorio. La propuesta de armonización es eliminarlo íntegramente, porque el primer párrafo ya acredita el entero del patrimonio inicial y los Artículos Noveno y Décimo regulan las contribuciones y adquisiciones posteriores. No se propone sustituirlo por otro texto.
+## COM-F14 — Párrafo del Artículo Tercero Transitorio
 
-## COM-F05 a COM-F17
+- Decisión humana: **APROBADO** el 5 de agosto de 2026.
+- Artículos estatutarios afectados:
+  1. **Artículo Octavo — Patrimonio inicial.**
+  2. **Artículo Noveno — Etapa inicial, trabajo fundador y aportes posteriores.**
+  3. **Artículo Décimo — Integración posterior del patrimonio.**
+  4. **Artículo Tercero Transitorio — Aporte inicial**, específicamente su segundo párrafo.
+- Evaluación: el segundo párrafo es redundante y puede generar tensión con el patrimonio inicial aprobado en PAT-01 y con la distinción entre contribución, colaboración y transferencia patrimonial.
+- Criterio aprobado para D3: eliminar íntegramente el segundo párrafo del Artículo Tercero Transitorio. No se reemplaza por otro texto.
+- Texto que se conserva en el transitorio:
+  
+> El aporte inicial de $1.200.000 se encuentra íntegramente enterado al momento de la constitución, mediante tres aportes dinerarios de $400.000 cada uno.
+
+- Fundamento de armonización: el primer párrafo acredita íntegramente el patrimonio inicial; los Artículos Noveno y Décimo regulan las contribuciones y adquisiciones posteriores. La eliminación no afecta la posibilidad de recibir bienes, derechos o colaboraciones posteriores.
+- Estado material: pendiente de incorporación en D3.
+- Estado en Drive: no respondido ni resuelto, conforme al plan que posterga el cierre hasta completar la revisión jurídica y de coherencia de D3.
+
+## COM-F05 a COM-F13 y COM-F15 a COM-F17
 
 Pendientes de revisión secuencial.
 
