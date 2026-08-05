@@ -14,7 +14,7 @@ Fecha de inicio: 5 de agosto de 2026.
 |---|---|---|---|
 | COM-F01 — Instrumentos que no requieren reforma | APROBADO | Pendiente | Abierto |
 | COM-F02 — Beneficiarios | APROBADO | Pendiente | Abierto |
-| COM-F03 a COM-F17 | Pendiente de revisión secuencial | Pendiente | Abiertos |
+| COM-F03 — Transparencia, memoria y balance | APROBADO | Pendiente | Abierto || COM-F04 a COM-F17 | Pendiente de revisión secuencial | Pendiente | Abiertos |
 
 ## COM-F01 — Instrumentos que no requieren reforma
 
@@ -44,7 +44,23 @@ Fecha de inicio: 5 de agosto de 2026.
 - Estado material: pendiente de incorporación en D3.
 - Estado en Drive: no respondido ni resuelto, conforme al plan que posterga el cierre hasta completar la revisión jurídica y de coherencia de D3.
 
-## COM-F03 a COM-F17
+## COM-F03 — Transparencia, memoria y balance
+
+- Decisión humana: **APROBADO** el 5 de agosto de 2026.
+- Artículo estatutario afectado: **Artículo Trigésimo Tercero — Transparencia, memoria y balance**.
+- Evaluación: comentario pertinente. La expresión “procurará” confundía obligaciones legales o condicionadas con publicación institucional adicional voluntaria.
+- Criterio consolidado: distinguir entre los deberes exigibles por la ley, convenios, fondos públicos, regímenes tributarios o instrucciones de autoridad, y la publicación adicional que la Fundación podrá realizar con los resguardos jurídicos y de seguridad correspondientes.
+- Texto aprobado para D3:
+
+> La Fundación deberá cumplir las obligaciones de publicidad, información, rendición de cuentas y transparencia que establezcan la ley, los convenios que suscriba, los fondos públicos que administre, los regímenes tributarios aplicables y las instrucciones de las autoridades competentes.
+>
+> Asimismo, podrá publicar anualmente información institucional adicional, incluyendo su misión, directorio, programas, líneas de trabajo, memoria, principales fuentes de financiamiento, estados financieros o resumen de ellos, donaciones relevantes cuando proceda, políticas de transparencia y mecanismos de denuncia, con los resguardos establecidos en la normativa sobre protección de datos personales, confidencialidad y seguridad de la información.
+
+- Fundamento externo: artículos 557 y 557-1 del Código Civil, sin presumir una obligación general de publicar en internet toda la información institucional.
+- Estado material: pendiente de incorporación en D3.
+- Estado en Drive: no respondido ni resuelto, conforme al plan que posterga el cierre hasta completar la revisión jurídica y de coherencia de D3.
+
+## COM-F04 a COM-F17
 
 Pendientes de revisión secuencial.
 
