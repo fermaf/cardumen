@@ -17,7 +17,8 @@ Fecha de inicio: 5 de agosto de 2026.
 | COM-F03 — Transparencia, memoria y balance | APROBADO | Pendiente | Abierto |
 | COM-F04 — Aportes posteriores | APROBADO | Pendiente | Abierto |
 | COM-F14 — Párrafo del Artículo Tercero Transitorio | APROBADO | Pendiente | Abierto |
-| COM-F05 a COM-F13 y COM-F15 a COM-F17 | Pendientes de revisión secuencial | Pendiente | Abiertos |
+| COM-F05 — Derechos de colaboradores | APROBADO | Pendiente | Abierto |
+| COM-F06 a COM-F13 y COM-F15 a COM-F17 | Pendientes de revisión secuencial | Pendiente | Abiertos |
 
 ## COM-F01 — Instrumentos que no requieren reforma
 
@@ -82,6 +83,20 @@ Fecha de inicio: 5 de agosto de 2026.
   - Las licencias, comodatos, autorizaciones de uso y colaboraciones sin transferencia patrimonial no se presentan como aportes al patrimonio.
 - Estado material: pendiente de incorporación en D3.
 - Estado en Drive: el comentario permanece abierto hasta completar la revisión y la incorporación armonizada.
+## COM-F05 — Derechos de colaboradores
+
+- Decisión humana: **APROBADO** el 5 de agosto de 2026.
+- Artículo estatutario directamente afectado: **Artículo Vigésimo Noveno — Colaboradores, voluntarios, comunidades y alianzas**.
+- Artículos relacionados: **Décimo Séptimo**, **Vigésimo Séptimo** y **Trigésimo**.
+- Evaluación: comentario pertinente. La calidad de colaborador no crea por sí misma un vínculo ni derechos contractuales; los derechos y obligaciones contractuales nacen del contrato, convenio u otro acto jurídico independiente.
+- Criterio aprobado para D3: reemplazar el segundo párrafo del Artículo Vigésimo Noveno por:
+
+> El reconocimiento de cualquiera de estas calidades no creará, por sí mismo, un vínculo laboral, civil, comercial o de representación, ni conferirá derechos patrimoniales, administrativos, contractuales, societarios, de participación en decisiones o de participación en excedentes. Los derechos y obligaciones que correspondan a la persona por un contrato, convenio u otro acto jurídico independiente se regirán por la ley y por el respectivo instrumento. La celebración de dichos actos deberá sujetarse, cuando corresponda, a estos estatutos, al Reglamento Interno y a las reglas de aprobación, conflicto de interés y abstención aplicables.
+
+- Fundamento externo: artículo 551-1 del Código Civil, en cuanto distingue las funciones directivas de los servicios distintos que pueden ser remunerados y sujetos a rendición.
+- Estado material: pendiente de incorporación en D3.
+- Estado en Drive: no respondido ni resuelto, conforme al plan que posterga el cierre hasta completar la revisión jurídica y de coherencia de D3.
+
 ## COM-F14 — Párrafo del Artículo Tercero Transitorio
 
 - Decisión humana: **APROBADO** el 5 de agosto de 2026.
