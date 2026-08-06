@@ -1,0 +1,48 @@
+{
+  "metadatos": {
+    "proyecto": "EJEMPLO",
+    "version_registro": "0.2.0",
+    "fecha_corte": "AAAA-MM-DD",
+    "estado": "plantilla_publica"
+  },
+  "decisiones": [
+    {
+      "id": "DOMINIO-01",
+      "titulo": "Título de ejemplo",
+      "estado_decisorio": "pendiente",
+      "integridad": "parcial",
+      "clasificacion": "publico",
+      "decision": "Descripción no sensible de la decisión.",
+      "fecha": null,
+      "fuentes": [
+        "Referencia verificable no sensible."
+      ],
+      "evidencia_aprobacion": null,
+      "destinos": [
+        "Documento o política de destino."
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Acción concreta.",
+      "instruccion_agente": "No marcar como aprobada sin evidencia humana."
+    },
+    {
+      "id": "DOMINIO-02",
+      "titulo": "Brecha de ejemplo",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "brecha",
+      "clasificacion": "publico",
+      "decision": null,
+      "fecha": null,
+      "fuentes": [
+        "Resumen que afirma aprobación sin conservar contenido."
+      ],
+      "evidencia_aprobacion": "Constancia insuficiente.",
+      "destinos": [],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Recuperar el original o solicitar ratificación humana.",
+      "instruccion_agente": "Prohibido inferir o completar esta decisión."
+    }
+  ]
+}

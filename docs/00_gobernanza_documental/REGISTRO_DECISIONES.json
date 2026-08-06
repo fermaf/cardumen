@@ -1,0 +1,446 @@
+{
+  "metadatos": {
+    "proyecto": "Cardumen — fase constituyente",
+    "version_registro": "0.5.0",
+    "fecha_corte": "2026-07-31",
+    "estado": "borrador_publico_sujeto_a_ratificacion",
+    "linea_base": "fermaf/cardumen@67f6d67d6621097d5747e3b8a22db2acdfe31001",
+    "advertencia": "La recuperación de evidencia no sustituye la aprobación formal ni autoriza alteraciones por inferencia.",
+    "fuente_recuperacion": "docs/00_gobernanza_documental/EVIDENCIA_RECUPERACION_2026-07-29.md",
+    "ultima_rectificacion": "OBJ-01: propuesta D3 anterior retirada por error de fuente; propuesta corregida conserva el tercer párrafo tecnológico, 2026-07-31."
+  },
+  "decisiones": [
+    {
+      "id": "REP-01",
+      "titulo": "Separación entre repositorio constituyente y operativo",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "parcial",
+      "clasificacion": "publico",
+      "decision": "El repositorio actual conserva la elaboración pública de borradores constitutivos. La futura entidad podrá iniciar su operación en otro repositorio desde una versión consolidada.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "Instrucción humana de 2026-07-29 en conversación de trabajo."
+      ],
+      "evidencia_aprobacion": "Instrucción expresa registrada antes de la recuperación.",
+      "destinos": [
+        "GENESIS_Y_PRINCIPIOS.md",
+        "README del futuro repositorio operativo"
+      ],
+      "dependencias": [
+        "ID-01"
+      ],
+      "contradicciones": [],
+      "accion_siguiente": "Ratificar si el repositorio operativo será nuevo, plantilla, fork o transferencia seleccionada.",
+      "instruccion_agente": "No confundir repositorio constituyente con existencia jurídica u operación efectiva."
+    },
+    {
+      "id": "PUB-01",
+      "titulo": "Publicidad por defecto durante la fase constituyente",
+      "estado_decisorio": "aprobada",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "Desde el 2026-07-29 la discusión y el registro de decisiones de la fase constituyente son públicos por defecto; la reserva es excepcional y previa.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "Instrucción humana de 2026-07-29 en conversación de trabajo."
+      ],
+      "evidencia_aprobacion": "Autorización expresa de publicidad actual y reserva futura de lo necesario.",
+      "destinos": [
+        "GENESIS_Y_PRINCIPIOS.md",
+        "METODOLOGIA_CONTROL_DECISIONES.md",
+        "POLITICA_PUBLICIDAD_Y_RESERVA.md"
+      ],
+      "dependencias": [
+        "REP-01"
+      ],
+      "contradicciones": [],
+      "accion_siguiente": "Clasificar cada nuevo registro antes de publicarlo.",
+      "instruccion_agente": "No publicar secretos, datos personales innecesarios, credenciales ni información reservada."
+    },
+    {
+      "id": "ID-01",
+      "titulo": "Nombre legal y relación con Cardumen",
+      "estado_decisorio": "pendiente",
+      "integridad": "parcial",
+      "clasificacion": "publico",
+      "decision": "Cardumen se mantiene como denominación de trabajo. No consta decisión íntegramente preservada sobre si será nombre legal, marca institucional o ambos.",
+      "fecha": null,
+      "fuentes": [
+        "Pestaña ESTATUTOS (JUNIO) de Google Drive.",
+        "Conversaciones del proyecto sobre nombres."
+      ],
+      "evidencia_aprobacion": null,
+      "destinos": [
+        "Estatutos, denominación",
+        "Identidad institucional"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Comparar alternativas, verificar disponibilidad y adoptar decisión humana.",
+      "instruccion_agente": "Usar Cardumen como nombre provisional y conservar placeholders en textos de formalización."
+    },
+    {
+      "id": "ID-03",
+      "titulo": "Domicilio en Providencia",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "El domicilio estatutario será la comuna de Providencia, Región Metropolitana. La dirección específica podrá fijarse y cambiarse dentro de la comuna conforme a las reglas aplicables.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, ID-03, referencias internas 99–102.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 99–102.",
+      "destinos": [
+        "Estatutos, domicilio",
+        "Acto constitutivo y gestiones posteriores"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Consolidar la cláusula de domicilio sin incorporar una dirección específica.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "PAT-01",
+      "titulo": "Patrimonio inicial y aportes dinerarios",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "Patrimonio inicial de $1.200.000, compuesto por tres aportes dinerarios iguales de $400.000, íntegramente enterados al otorgarse el acto constitutivo; no habrá aportes no dinerarios iniciales ni plazo posterior de entero.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, PAT-01, referencias internas 103–121, especialmente 113–117.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 103–121, especialmente 113–117.",
+      "destinos": [
+        "Estatutos, patrimonio inicial",
+        "Disposición transitoria",
+        "Comprobantes de aportes"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Consolidar la regla patrimonial y verificar su coherencia con el acto constitutivo.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "GOB-01",
+      "titulo": "Directorio inicial y relación con fundadores",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "Los tres fundadores serán los tres directores iniciales. El Directorio tendrá entre 3 y 9 integrantes. Ser fundador no confiere permanencia, veto ni facultades distintas del cargo de director.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-01, referencias internas 121–126.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 121–126.",
+      "destinos": [
+        "Estatutos, integración del Directorio",
+        "Disposición transitoria"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Consolidar integración, límites y disposición transitoria.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "GOB-02",
+      "titulo": "Renovación escalonada del Directorio",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "Los períodos iniciales excepcionales serán de 3, 4 y 5 años; los períodos ordinarios posteriores serán de 5 años. Los reemplazos completan el período restante, con continuidad excepcional máxima de 90 días si no hay sucesor.",
+      "fecha": "2026-07-31",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-02, referencias internas 126–128.",
+        "PR #5, comentario #issuecomment-5123717615.",
+        "Rectificación humana expresa durante el levantamiento integral de ESTATUTOS (JUNIO), 2026-07-31."
+      ],
+      "evidencia_aprobacion": "La evidencia de 2026-07-29 fijó el escalonamiento inicial; el 2026-07-31 se sustituyó expresamente el período ordinario anterior por cinco años.",
+      "destinos": [
+        "Estatutos, duración y renovación",
+        "Disposición transitoria"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Consolidar períodos iniciales 3/4/5 y período ordinario de cinco años, junto con las reglas de transición.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "GOB-03",
+      "titulo": "Designación, reelección y ampliación del Directorio",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "El propio Directorio elige nuevos directores por 2/3; órganos consultivos pueden proponer; procede una reelección inmediata; el período inicial cuenta; puede retornarse luego de un período fuera; la ampliación hasta 9 requiere 2/3.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-03, referencias internas 129–135.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 129–135.",
+      "destinos": [
+        "Estatutos, designación y reelección de directores"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Consolidar el mecanismo y verificar compatibilidad jurídica.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "GOB-04",
+      "titulo": "Vacancias, renuncia y remoción",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "Rigen requisitos legales básicos; la renuncia es escrita; la remoción exige 2/3 sin el afectado, conocimiento de hechos y descargos; el reemplazo se designa por 2/3 por el período restante, priorizando recomponer el mínimo.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-04, referencias internas 135–139.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 135–139.",
+      "destinos": [
+        "Estatutos, vacancias, renuncia y remoción"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Consolidar garantías y procedimiento mínimo.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "GOB-05",
+      "titulo": "Voto dirimente",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "Tiene voto dirimente quien presida efectivamente la sesión, no necesariamente el Presidente titular; no opera respecto de quien debe abstenerse.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-05, referencias internas 139–146.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 139–146.",
+      "destinos": [
+        "Estatutos, votación y desempate"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Consolidar la regla de desempate junto con la abstención.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "GOB-06",
+      "titulo": "Presidencia accidental y continuidad urgente",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "Orden de presidencia accidental: Presidente, Vicepresidente, director de mayor antigüedad y, en empate, mayor edad. Con dos directores sólo puede actuarse para continuidad urgente y recomposición del mínimo, no como régimen ordinario.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-06, referencias internas 144–151.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 144–151.",
+      "destinos": [
+        "Estatutos, presidencia accidental y continuidad mínima"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Consolidar la regla excepcional y sus límites.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "GOB-07",
+      "titulo": "Sesiones, quórums y materias reforzadas",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "Habrá al menos 4 sesiones ordinarias anuales; extraordinarias por Presidente o 1/3; sesiones presenciales, telemáticas o mixtas; instalación por mayoría absoluta; acuerdos ordinarios por mayoría absoluta de presentes con derecho a voto; 2/3 para materias expresamente relevantes.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-07, referencias internas 151–157.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 151–157.",
+      "destinos": [
+        "Estatutos, sesiones, quórums y acuerdos"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Separar en Estatutos materias estables y en Reglamento la operación de sesiones.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "GOB-08",
+      "titulo": "Conflictos de interés y privacidad",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "La declaración de intereses será pertinente y proporcional, con minimización de datos y registro reservado. El afectado se abstiene de deliberar, votar y ejecutar; el acta sólo consigna naturaleza general, abstención y acuerdo.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-08, referencias internas 157–166.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 157–166.",
+      "destinos": [
+        "Estatutos, deber de abstención",
+        "Reglamento o política de conflictos de interés"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Consolidar deber de abstención y desarrollar resguardo documental en política.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "GOB-09",
+      "titulo": "Contabilidad, memoria y transparencia proporcional",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "Se llevará contabilidad y se confeccionarán anualmente memoria explicativa y balance aprobados por el Directorio. Las publicaciones adicionales son facultativas y resguardan privacidad, seguridad, confidencialidad y derechos de terceros.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-09, referencias internas 166–179, especialmente 172–175.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 166–179, especialmente 172–175.",
+      "destinos": [
+        "Estatutos, administración y rendición",
+        "Política de transparencia proporcional"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Verificar norma aplicable y consolidar sin sobreextender deberes de publicación.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "GOB-10",
+      "titulo": "Patrimonio, recursos y activos digitales",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "Se distingue patrimonio y recursos; se admiten donaciones civiles con o sin beneficio tributario, regímenes especiales y activos digitales. Administración ejecuta lo ordinario sujeto a política, presupuesto y umbrales; el Directorio reserva casos relevantes o riesgosos. Operaciones no prohibidas por ley y compatibles con fines y controles; terceros especializados pueden gestionar activos propios; matriz de riesgo actualizable.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-10, referencias internas 179–217; decisiones 204, 208 y 211.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 179–217; decisiones 204, 208 y 211.",
+      "destinos": [
+        "Estatutos, patrimonio y administración",
+        "Reglamento financiero",
+        "Política de activos digitales",
+        "Matriz de riesgos"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Realizar consolidación jurídica diferenciando Estatutos, reglamentos, políticas y matriz.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "GOB-11",
+      "titulo": "Operaciones relacionadas y contratación de fundadores",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "Las operaciones relacionadas relevantes, riesgosas o recurrentes se reservan al Directorio. Contratar a un director o relacionado exige acuerdo específico y abstención; deciden los no afectados si hay quórum. Idoneidad, remuneración razonable y controles proporcionales; no habrá comité pesado ni registro permanente fuera de la documentación por operación.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-11, referencias internas 217–227, incluida corrección 223.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 217–227, incluida corrección 223.",
+      "destinos": [
+        "Estatutos, conflictos y operaciones relacionadas",
+        "Política de conflictos de interés",
+        "Política de contratación"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Consolidar controles proporcionales y verificar régimen jurídico aplicable.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "GOB-12",
+      "titulo": "Contratación, compras y fondos públicos",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "El Directorio aprueba cargos directivos, estratégicos o de alta remuneración; administración contrata lo ordinario. Los contratos deben tener objeto, precio, plazo, entregables y supervisor. Compras sujetas a presupuesto, política y umbrales; matriz proporcional puede ser asistida por IA con responsabilidad humana. Fondos públicos se rigen por norma, bases y convenios.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-12, referencias internas 227–233.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 227–233.",
+      "destinos": [
+        "Reglamento interno",
+        "Política de compras y contratación",
+        "Matriz de umbrales"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Consolidar en reglamento, políticas y matriz de umbrales.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "GOB-13",
+      "titulo": "Principio Agents First, Human Governed",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "completa",
+      "clasificacion": "publico",
+      "decision": "Los procesos deben diseñarse automatizables y auditables. Agentes pueden analizar, clasificar, documentar, proponer, verificar, alertar, ejecutar tareas reversibles y escalar; nunca sustituyen autoridad, aprobación, responsabilidad, firma ni control humanos. Aplicación proporcional, sin burocracia inicial sobredimensionada.",
+      "fecha": "2026-07-29",
+      "fuentes": [
+        "EVIDENCIA_RECUPERACION_2026-07-29.md, GOB-13, referencias internas 233–250.",
+        "PR #5, comentario #issuecomment-5123717615."
+      ],
+      "evidencia_aprobacion": "Recuperación de aceptación humana declarada en la exportación, mensajes 233–250.",
+      "destinos": [
+        "Reglamento interno",
+        "Política de gobernanza de agentes IA",
+        "Matriz de competencias y autorizaciones"
+      ],
+      "dependencias": [],
+      "contradicciones": [],
+      "accion_siguiente": "Traducir el principio a reglas, política y matriz de autorizaciones.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final ni alterar sus límites sin decisión humana trazable."
+    },
+    {
+      "id": "OBJ-01",
+      "titulo": "Artículo Cuarto: objeto general",
+      "estado_decisorio": "aprobada_consolidacion_pendiente",
+      "integridad": "parcial",
+      "clasificacion": "publico",
+      "decision": "Se aprueba como criterio de consolidación que el artículo cuarto contenga únicamente el objeto general y estable, el artículo quinto los fines específicos de interés general y el artículo sexto las actividades y medios de ejecución. Se mantiene como materia fundacional la inteligencia artificial y los agentes autónomos o semiautónomos bajo dirección, supervisión y responsabilidad humanas; sus reglas operativas se desarrollarán en el Reglamento o en políticas. Se mantiene pendiente la decisión específica sobre el uso estatutario de los conceptos autonomía tecnológica y soberanía digital.",
+      "fecha": "2026-07-31",
+      "fuentes": [
+        "Pestaña ESTATUTOS (JUNIO) del Google Doc PROPUESTA ONG, revisionId AIroW34sdns82xtrQjOuCMdL8HRPIQ9VdQlkAhy2-ttdm6gcwXDlM8HmOj-ciIxqMz91nL0_2HQHpSDy42A6SY09sYpVZgrcJ38f3_vom0o, tabId t.v0xtswn6rj85.",
+        "Comentarios de Fernando AAACBsrwC0A, AAACEk40uxs y AAACEk40jcU.",
+        "PROTOCOLO_EJECUCION_GUIADA_MODELO_LIGERO.md y Ficha de corrección OBJ-01."
+      ],
+      "evidencia_aprobacion": "Aprobación humana inequívoca mediante respuesta 'si' posterior a la pregunta única de la ficha OBJ-01, 2026-07-31. Aclaración humana posterior: no eliminar elementos no redundantes; preservar la calidad informativa.",
+      "destinos": [
+        "Estatutos, artículos cuarto, quinto y sexto",
+        "Reglamento o políticas de gobernanza de inteligencia artificial y agentes",
+        "Matriz de comentarios"
+      ],
+      "dependencias": [
+        "GOB-13"
+      ],
+      "contradicciones": [],
+      "accion_siguiente": "Revisar humanamente la propuesta D3 corregida, que conserva los tres párrafos vigentes, antes de registrar aprobación de texto o modificar Google Drive.",
+      "instruccion_agente": "No tratar esta decisión como texto jurídico final. No incorporar por inferencia el Manifiesto Criptoanarquista ni resolver los comentarios de Gonzalo.",
+      "aclaracion_humana": "La separación entre objeto, fines y actividades no autoriza eliminar elementos sustantivos que no sean redundantes. La consolidación debe preservar la calidad e integridad de la información; cuando exista solapamiento, corresponde reubicar, precisar o armonizar el contenido, eliminándolo sólo si es duplicación estricta o si existe fundamento jurídico y decisión humana expresa.",
+      "evidencia_inventario": "Inventario registrado en docs/01_borradores/FICHA_OBJ-01_INVENTARIO_CONSERVACION_2026-07-31.md, commit 11000d8654df3cfa13f4e98631e504dce19c0e87.",
+      "aprobacion_d3": "La aprobación registrada de la propuesta anterior queda sin efecto como registro de texto, porque dicha propuesta omitió por error el tercer párrafo tecnológico vigente en Drive. No se considera aprobada ninguna redacción que lo omita.",
+      "rectificacion_fuente": "Rectificación del agente de 2026-07-31: el artículo cuarto vigente contiene tres párrafos, incluido el párrafo sobre criptografía, identidad digital, credenciales verificables, registros distribuidos, contratos inteligentes, reputación y confianza digital, inteligencia artificial, ciberseguridad, privacidad desde el diseño, transparencia, interoperabilidad, documentación abierta y transformación digital.",
+      "evidencia_rectificacion": "La fuente fue releída directamente con revisionId AIroW34sdns82xtrQjOuCMdL8HRPIQ9VdQlkAhy2-ttdm6gcwXDlM8HmOj-ciIxqMz91nL0_2HQHpSDy42A6SY09sYpVZgrcJ38f3_vom0o y tabId t.v0xtswn6rj85. Propuesta corregida: docs/01_borradores/PROPUESTA_D3_OBJ-01_ARTICULO_CUARTO_CORREGIDA_2026-07-31.md, commit 43f0fa6097d5615e9f371943af9f264fd2f3bf3d."
+    }
+  ]
+}
